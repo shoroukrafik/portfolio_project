@@ -1,0 +1,46 @@
+{
+  "dji": {
+    "val": {
+      "cum_ret": 32.99,
+      "sharpe": 2.3872,
+      "mdd": -6.51
+    },
+    "test_bear": {
+      "cum_ret": -8.22,
+      "sharpe": -0.9379,
+      "mdd": -14.03
+    },
+    "test_2023": {
+      "cum_ret": 35.11,
+      "sharpe": 2.5549,
+      "mdd": -10.02
+    },
+    "test_bull": {
+      "cum_ret": 39.18,
+      "sharpe": 3.0792,
+      "mdd": -6.94
+    }
+  },
+  "sp100": {
+    "val": {
+      "cum_ret": 24.12,
+      "sharpe": 2.7235,
+      "mdd": -4.51
+    },
+    "test_bear": {
+      "cum_ret": -7.47,
+      "sharpe": -0.7509,
+      "mdd": -14.12
+    },
+    "test_2023": {
+      "cum_ret": 17.22,
+      "sharpe": 1.4813,
+      "mdd": -9.98
+    },
+    "test_bull": {
+      "cum_ret": 18.83,
+      "sharpe": 1.9073,
+      "mdd": -6.53
+    }
+  }
+}

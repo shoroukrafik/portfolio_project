@@ -1,0 +1,17 @@
+system,period,cumulative_return,sharpe_ratio,max_drawdown
+FULL (baseline),val,27.2,2.3928,-5.36
+FULL (baseline),test_bear,-7.36,-0.6104,-15.01
+FULL (baseline),test_2023,27.16,2.2862,-9.49
+FULL (baseline),test_bull,24.35,2.1159,-6.04
+MTL v2,val,20.78,2.1855,-4.5
+MTL v2,test_bear,-6.86,-0.6521,-13.66
+MTL v2,test_2023,18.82,1.8952,-7.12
+MTL v2,test_bull,10.21,1.075,-5.43
+Multi-agent (soft),val,26.33,2.67,-4.02
+Multi-agent (soft),test_bear,-6.7,-0.6027,-13.46
+Multi-agent (soft),test_2023,21.66,2.1392,-8.56
+Multi-agent (soft),test_bull,16.5,1.7838,-5.51
+Risk-personality (soft),val,30.8,2.6421,-5.38
+Risk-personality (soft),test_bear,-8.37,-0.6748,-15.34
+Risk-personality (soft),test_2023,18.18,1.6827,-9.68
+Risk-personality (soft),test_bull,20.14,1.8973,-5.12

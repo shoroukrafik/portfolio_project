@@ -1,0 +1,52 @@
+{
+  "method": "universal_v6_ndx_2017_mom_bullconc",
+  "universe": "NASDAQ-100 2017-variant + long-mom + bull-only concentration",
+  "best_val_sharpe": 1.9033150771318357,
+  "best_step": 75000,
+  "total_steps": 1000000,
+  "concentration_top_k": 10,
+  "concentration_lambda": 0.1,
+  "concentration_bull_only": true,
+  "periods": {
+    "train": {
+      "cumulative_return": 193.33,
+      "annualized_return": 31.66,
+      "annualized_volatility": 22.47,
+      "sharpe_ratio": 1.409,
+      "max_drawdown": -31.34,
+      "final_value": 2933293.47
+    },
+    "val": {
+      "cumulative_return": 27.18,
+      "annualized_return": 29.99,
+      "annualized_volatility": 15.76,
+      "sharpe_ratio": 1.9033,
+      "max_drawdown": -7.39,
+      "final_value": 1271818.26
+    },
+    "test_bear": {
+      "cumulative_return": -11.8,
+      "annualized_return": -12.86,
+      "annualized_volatility": 29.45,
+      "sharpe_ratio": -0.4366,
+      "max_drawdown": -22.38,
+      "final_value": 881954.21
+    },
+    "test_2023": {
+      "cumulative_return": 25.34,
+      "annualized_return": 28.21,
+      "annualized_volatility": 14.84,
+      "sharpe_ratio": 1.901,
+      "max_drawdown": -10.05,
+      "final_value": 1253355.0
+    },
+    "test_bull": {
+      "cumulative_return": 12.96,
+      "annualized_return": 14.28,
+      "annualized_volatility": 13.96,
+      "sharpe_ratio": 1.0235,
+      "max_drawdown": -8.93,
+      "final_value": 1129604.97
+    }
+  }
+}

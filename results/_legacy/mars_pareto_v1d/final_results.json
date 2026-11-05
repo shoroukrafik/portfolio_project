@@ -1,0 +1,81 @@
+{
+  "method": "MARS-Pareto v1d (post-softmax weight blend (T=1.0, true portfolio blend))",
+  "variant": "v1d",
+  "temperature": 1.0,
+  "blend_mode": "weights",
+  "dji": {
+    "periods": {
+      "val": {
+        "cumulative_return": 30.71,
+        "annualized_return": 33.93,
+        "annualized_volatility": 13.36,
+        "sharpe_ratio": 2.5392,
+        "max_drawdown": -5.25,
+        "final_value": 1307061.66
+      },
+      "test_bear": {
+        "cumulative_return": -9.9,
+        "annualized_return": -10.79,
+        "annualized_volatility": 24.48,
+        "sharpe_ratio": -0.441,
+        "max_drawdown": -24.04,
+        "final_value": 900996.11
+      },
+      "test_2023": {
+        "cumulative_return": 18.0,
+        "annualized_return": 19.98,
+        "annualized_volatility": 11.65,
+        "sharpe_ratio": 1.7153,
+        "max_drawdown": -10.16,
+        "final_value": 1180032.7
+      },
+      "test_bull": {
+        "cumulative_return": 24.41,
+        "annualized_return": 27.04,
+        "annualized_volatility": 12.23,
+        "sharpe_ratio": 2.2107,
+        "max_drawdown": -6.34,
+        "final_value": 1244148.21
+      }
+    },
+    "wins": "6/7"
+  },
+  "sp100": {
+    "periods": {
+      "val": {
+        "cumulative_return": 29.56,
+        "annualized_return": 32.65,
+        "annualized_volatility": 11.79,
+        "sharpe_ratio": 2.7686,
+        "max_drawdown": -5.21,
+        "final_value": 1295602.93
+      },
+      "test_bear": {
+        "cumulative_return": -10.72,
+        "annualized_return": -11.68,
+        "annualized_volatility": 22.74,
+        "sharpe_ratio": -0.5138,
+        "max_drawdown": -22.7,
+        "final_value": 892795.89
+      },
+      "test_2023": {
+        "cumulative_return": 16.27,
+        "annualized_return": 18.04,
+        "annualized_volatility": 12.62,
+        "sharpe_ratio": 1.4291,
+        "max_drawdown": -9.92,
+        "final_value": 1162653.51
+      },
+      "test_bull": {
+        "cumulative_return": 18.86,
+        "annualized_return": 20.84,
+        "annualized_volatility": 10.8,
+        "sharpe_ratio": 1.929,
+        "max_drawdown": -6.19,
+        "final_value": 1188578.31
+      }
+    },
+    "wins": "5/12"
+  },
+  "total_wins": "11/19"
+}

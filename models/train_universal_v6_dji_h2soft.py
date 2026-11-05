@@ -1,0 +1,179 @@
+"""
+H2-SOFT ablation on DJI — isolates the contribution of regime-CONDITIONED λ.
+
+Removes ONLY the regime-conditioned risk penalty.
+KEEPS:
+  - regime probabilities in observation
+  - vol features (vol_20d, vol_60d, vol_ratio) in observation
+  - cash floors per regime (in production v6, these are zero anyway)
+REPLACES:
+  - risk_penalties {bull:0.1, bear:0.5, sideways:0.3}  →  uniform {0.3, 0.3, 0.3}
+
+This is the WEAK / SOFT regime ablation that:
+  - Tests literature standard "fixed λ" choice (Jiang 2017 / FinRL convention)
+  - Isolates the regime-conditioned λ contribution from H2 (which removes everything)
+
+Pairs with train_universal_v6_sp100_h2soft.py for cross-universe H2-soft analysis.
+
+Output: ppo_universal_v6_dji_h2soft.zip
+        results/universal_v6_dji_h2soft/
+"""
+
+import os
+import sys
+import json
+import argparse
+import pandas as pd
+from stable_baselines3 import PPO
+import warnings
+warnings.filterwarnings('ignore')
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from portfolio_env import PortfolioEnv
+from train_final_extended import (
+    AttentionPortfolioExtractor,
+    DetailedCallback,
+    ValidationCheckpointCallback,
+    calculate_metrics,
+    evaluate_agent,
+)
+from train_universal_v6_sp100 import (
+    V6_CASH_FLOORS, V6_NET_ARCH,
+    V6_FEATURE_COLUMNS, V3_COLS_TO_DROP,
+)
+
+
+# H2-SOFT: keep regime info, uniform λ
+UNIFORM_RISK_PENALTIES = {0: 0.3, 1: 0.3, 2: 0.3}
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--seed', type=int, default=42)
+    parser.add_argument('--total_steps', type=int, default=1_000_000)
+    args = parser.parse_args()
+
+    base_dir    = os.path.dirname(os.path.abspath(__file__))
+    project_dir = os.path.dirname(base_dir)
+    data_dir    = os.path.join(project_dir, 'data')
+    saved_dir   = os.path.join(base_dir, 'saved')
+    name_tag = '_h2soft'
+    if args.seed != 42:
+        name_tag += f'_s{args.seed}'
+    results_dir = os.path.join(project_dir, 'results', f'universal_v6_dji{name_tag}')
+    os.makedirs(saved_dir, exist_ok=True)
+    os.makedirs(results_dir, exist_ok=True)
+
+    print('=' * 80)
+    print('   DJI Universal v6 — H2-SOFT ablation (regime-conditioned λ removed only)')
+    print('   KEEPS regime probs in obs + vol features. UNIFORM λ=0.3 across regimes.')
+    print('=' * 80)
+
+    def load(p):
+        df = pd.read_csv(os.path.join(data_dir, p))
+        df['date'] = pd.to_datetime(df['date'])
+        return df.drop(columns=[c for c in V3_COLS_TO_DROP if c in df.columns])
+
+    train_df     = load('train_data_ext.csv')
+    val_df       = load('val_data_ext.csv')
+    test_bear_df = load('test_bear_data_ext.csv')
+    test_2023_df = load('test_2023_data_ext.csv')
+    test_bull_df = load('test_bull_data_ext.csv')
+
+    n_stocks = train_df['ticker'].nunique()
+    feature_columns = [f for f in V6_FEATURE_COLUMNS if f in train_df.columns]
+    n_features = len(feature_columns)
+    print(f"\n   Stocks: {n_stocks}  Features per stock: {n_features}")
+
+    env_kwargs = dict(
+        initial_balance=1_000_000,
+        cash_floors=V6_CASH_FLOORS,
+        risk_penalties=UNIFORM_RISK_PENALTIES,   # ← the H2-SOFT change
+        include_regime=True,                      # keep regime label
+        include_regime_probs=True,                # keep regime probs
+        include_vol_features=True,                # keep vol features
+        use_markowitz_reward=False,
+        use_hyperheuristic=False,
+    )
+    train_env     = PortfolioEnv(df=train_df,     **env_kwargs)
+    val_env       = PortfolioEnv(df=val_df,       **env_kwargs)
+    test_bear_env = PortfolioEnv(df=test_bear_df, **env_kwargs)
+    test_2023_env = PortfolioEnv(df=test_2023_df, **env_kwargs)
+    test_bull_env = PortfolioEnv(df=test_bull_df, **env_kwargs)
+
+    policy_kwargs = dict(
+        features_extractor_class=AttentionPortfolioExtractor,
+        features_extractor_kwargs=dict(
+            n_stocks=n_stocks, n_features=n_features,
+            embed_dim=64, n_heads=4, features_dim=128,
+        ),
+        net_arch=V6_NET_ARCH,
+    )
+    hp_path = os.path.join(project_dir, 'results', 'best_hyperparams.json')
+    with open(hp_path) as f:
+        hp = json.load(f)
+    model = PPO(
+        "MlpPolicy", train_env,
+        policy_kwargs=policy_kwargs,
+        learning_rate=hp['learning_rate'],
+        n_steps=hp['n_steps'],
+        batch_size=hp['batch_size'],
+        ent_coef=hp['ent_coef'],
+        n_epochs=10, gamma=0.99, gae_lambda=0.95, clip_range=0.2,
+        verbose=0, seed=args.seed, device='cpu',
+    )
+
+    print(f"\n--- Training {args.total_steps:,} steps ---\n")
+    detailed = DetailedCallback(eval_freq=50_000, total_timesteps=args.total_steps)
+    best_path = os.path.join(saved_dir, f'ppo_universal_v6_dji{name_tag}')
+    checkpoint_dir = os.path.join(saved_dir, 'checkpoints', f'universal_v6_dji{name_tag}')
+    val_cb = ValidationCheckpointCallback(
+        val_env=val_env, save_path=best_path, eval_freq=25_000,
+        checkpoint_dir=checkpoint_dir,
+    )
+    model.learn(total_timesteps=args.total_steps,
+                callback=[detailed, val_cb], progress_bar=True)
+
+    final_path = os.path.join(saved_dir, f'ppo_universal_v6_dji{name_tag}_final')
+    model.save(final_path)
+    print(f"\n✅ Best by val Sharpe: {val_cb.best_val_sharpe:.4f} at step {val_cb.best_step:,}")
+
+    with open(os.path.join(results_dir, 'val_sharpe_history.json'), 'w') as f:
+        json.dump({'history': val_cb.history,
+                   'best_step': val_cb.best_step,
+                   'best_val_sharpe': val_cb.best_val_sharpe}, f, indent=2)
+
+    model = PPO.load(best_path, env=train_env)
+    print(f"\n--- Evaluating BEST model on all periods ---\n")
+    results = {}
+    for name, env, desc in [
+        ('train',     train_env,     'Training (2007-2020)'),
+        ('val',       val_env,       'Validation (2021)'),
+        ('test_bear', test_bear_env, 'Test Bear (2022)'),
+        ('test_2023', test_2023_env, 'Test Recovery (2023)'),
+        ('test_bull', test_bull_env, 'Test Bull (2024)'),
+    ]:
+        history = evaluate_agent(model, env)
+        m = calculate_metrics(history)
+        results[name] = m
+        print(f"  {desc}: Return={m['cumulative_return']:>+7.2f}%  "
+              f"Sharpe={m['sharpe_ratio']:>+7.4f}  MDD={m['max_drawdown']:>+7.2f}%")
+
+    save = {
+        'method': f'universal_v6_dji{name_tag}',
+        'universe': 'DJI 30 — H2-SOFT (uniform λ, keeps regime obs)',
+        'experimental_changes': {
+            'risk_penalties': UNIFORM_RISK_PENALTIES,
+            'rationale':      'Tests literature-standard fixed-λ choice; isolates λ-conditioning contribution',
+        },
+        'best_val_sharpe': val_cb.best_val_sharpe,
+        'best_step':       val_cb.best_step,
+        'periods':         results,
+    }
+    with open(os.path.join(results_dir, 'final_results.json'), 'w') as f:
+        json.dump(save, f, indent=2)
+    print(f"\n✅ Results → {results_dir}/final_results.json")
+
+
+if __name__ == '__main__':
+    main()

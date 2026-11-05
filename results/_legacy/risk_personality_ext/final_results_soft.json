@@ -1,0 +1,51 @@
+{
+  "method": "risk_personality_soft",
+  "lambda_values": {
+    "aggressive": 0.05,
+    "balanced": 0.3,
+    "conservative": 0.8
+  },
+  "periods": {
+    "val": {
+      "cumulative_return": 30.8,
+      "annualized_return": 34.03,
+      "annualized_volatility": 12.88,
+      "sharpe_ratio": 2.6421,
+      "max_drawdown": -5.38,
+      "final_value": 1308011.88
+    },
+    "test_bear": {
+      "cumulative_return": -8.37,
+      "annualized_return": -9.13,
+      "annualized_volatility": 13.54,
+      "sharpe_ratio": -0.6748,
+      "max_drawdown": -15.34,
+      "final_value": 916283.37
+    },
+    "test_bull": {
+      "cumulative_return": 20.14,
+      "annualized_return": 22.26,
+      "annualized_volatility": 11.73,
+      "sharpe_ratio": 1.8973,
+      "max_drawdown": -5.12,
+      "final_value": 1201360.93
+    }
+  },
+  "personality_usage_pct": {
+    "val": {
+      "aggressive": 60.69,
+      "conservative": 7.72,
+      "balanced": 31.58
+    },
+    "test_bear": {
+      "aggressive": 1.72,
+      "conservative": 88.25,
+      "balanced": 10.03
+    },
+    "test_bull": {
+      "aggressive": 53.92,
+      "conservative": 4.12,
+      "balanced": 41.96
+    }
+  }
+}

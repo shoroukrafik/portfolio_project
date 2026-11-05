@@ -1,0 +1,234 @@
+{
+  "FULL (baseline)": {
+    "val": {
+      "cumulative_return": 27.2,
+      "annualized_return": 30.01,
+      "annualized_volatility": 12.54,
+      "sharpe_ratio": 2.3928,
+      "max_drawdown": -5.36,
+      "final_value": 1272018.79
+    },
+    "test_bear": {
+      "cumulative_return": -7.36,
+      "annualized_return": -8.03,
+      "annualized_volatility": 13.15,
+      "sharpe_ratio": -0.6104,
+      "max_drawdown": -15.01,
+      "final_value": 926448.29
+    },
+    "test_2023": {
+      "cumulative_return": 27.16,
+      "sharpe_ratio": 2.2862,
+      "max_drawdown": -9.49,
+      "annualized_volatility": 13.24
+    },
+    "test_bull": {
+      "cumulative_return": 24.35,
+      "annualized_return": 26.97,
+      "annualized_volatility": 12.75,
+      "sharpe_ratio": 2.1159,
+      "max_drawdown": -6.04,
+      "final_value": 1243537.31
+    }
+  },
+  "VANILLA": {
+    "val": {
+      "cumulative_return": 22.06,
+      "sharpe_ratio": 2.1068,
+      "max_drawdown": -4.7,
+      "annualized_volatility": 11.53,
+      "final_value": 1220629.39
+    },
+    "test_bear": {
+      "cumulative_return": -9.78,
+      "sharpe_ratio": -0.4712,
+      "max_drawdown": -22.34,
+      "annualized_volatility": 22.64,
+      "final_value": 902182.61
+    },
+    "test_2023": {
+      "cumulative_return": 21.57,
+      "sharpe_ratio": 2.093,
+      "max_drawdown": -7.83,
+      "annualized_volatility": 11.46
+    },
+    "test_bull": {
+      "cumulative_return": 20.21,
+      "sharpe_ratio": 1.9593,
+      "max_drawdown": -7.53,
+      "annualized_volatility": 11.41,
+      "final_value": 1202122.18
+    }
+  },
+  "no_floor (eval)": {
+    "val": {
+      "cumulative_return": 29.31,
+      "sharpe_ratio": 2.6737,
+      "max_drawdown": -4.22,
+      "annualized_volatility": 12.1
+    },
+    "test_bear": {
+      "cumulative_return": -13.69,
+      "sharpe_ratio": -0.6302,
+      "max_drawdown": -23.83,
+      "annualized_volatility": 23.63
+    },
+    "test_2023": {
+      "cumulative_return": 29.03,
+      "sharpe_ratio": 2.2681,
+      "max_drawdown": -10.02,
+      "annualized_volatility": 14.28
+    },
+    "test_bull": {
+      "cumulative_return": 18.15,
+      "sharpe_ratio": 1.7849,
+      "max_drawdown": -6.05,
+      "annualized_volatility": 11.24
+    }
+  },
+  "no_dsr": {
+    "val": {
+      "cumulative_return": 19.77,
+      "sharpe_ratio": 2.1474,
+      "max_drawdown": -3.89,
+      "annualized_volatility": 10.13,
+      "final_value": 1197715.07
+    },
+    "test_bear": {
+      "cumulative_return": -5.48,
+      "sharpe_ratio": -0.5072,
+      "max_drawdown": -12.01,
+      "annualized_volatility": 11.8,
+      "final_value": 945230.78
+    },
+    "test_2023": {
+      "cumulative_return": 16.39,
+      "sharpe_ratio": 1.7367,
+      "max_drawdown": -8.2,
+      "annualized_volatility": 10.47
+    },
+    "test_bull": {
+      "cumulative_return": 12.09,
+      "sharpe_ratio": 1.3745,
+      "max_drawdown": -5.33,
+      "annualized_volatility": 9.69,
+      "final_value": 1120914.44
+    }
+  },
+  "no_attention": {
+    "val": {
+      "cumulative_return": 19.14,
+      "sharpe_ratio": 2.0692,
+      "max_drawdown": -4.52,
+      "annualized_volatility": 10.17,
+      "final_value": 1191387.31
+    },
+    "test_bear": {
+      "cumulative_return": -4.5,
+      "sharpe_ratio": -0.4242,
+      "max_drawdown": -11.71,
+      "annualized_volatility": 11.61,
+      "final_value": 954955.0
+    },
+    "test_2023": {
+      "cumulative_return": 17.29,
+      "sharpe_ratio": 1.8345,
+      "max_drawdown": -7.66,
+      "annualized_volatility": 10.46
+    },
+    "test_bull": {
+      "cumulative_return": 15.21,
+      "sharpe_ratio": 1.7461,
+      "max_drawdown": -5.03,
+      "annualized_volatility": 9.61,
+      "final_value": 1152104.16
+    }
+  },
+  "no_regime_\u03bb=0.1": {
+    "val": {
+      "cumulative_return": 31.69,
+      "sharpe_ratio": 2.8137,
+      "max_drawdown": -4.83,
+      "annualized_volatility": 12.45,
+      "final_value": 1316854.76
+    },
+    "test_bear": {
+      "cumulative_return": -6.23,
+      "sharpe_ratio": -0.527,
+      "max_drawdown": -13.68,
+      "annualized_volatility": 12.91,
+      "final_value": 937715.33
+    },
+    "test_2023": {
+      "cumulative_return": 16.1,
+      "sharpe_ratio": 1.4589,
+      "max_drawdown": -9.88,
+      "annualized_volatility": 12.24
+    },
+    "test_bull": {
+      "cumulative_return": 21.53,
+      "sharpe_ratio": 2.0113,
+      "max_drawdown": -5.43,
+      "annualized_volatility": 11.84,
+      "final_value": 1215310.49
+    }
+  },
+  "no_regime_\u03bb=0.3": {
+    "val": {
+      "cumulative_return": 28.22,
+      "sharpe_ratio": 2.5825,
+      "max_drawdown": -5.3,
+      "annualized_volatility": 12.06,
+      "final_value": 1282157.68
+    },
+    "test_bear": {
+      "cumulative_return": -6.86,
+      "sharpe_ratio": -0.5765,
+      "max_drawdown": -14.22,
+      "annualized_volatility": 13.0,
+      "final_value": 931360.01
+    },
+    "test_2023": {
+      "cumulative_return": 20.0,
+      "sharpe_ratio": 1.8613,
+      "max_drawdown": -9.17,
+      "annualized_volatility": 11.94
+    },
+    "test_bull": {
+      "cumulative_return": 19.38,
+      "sharpe_ratio": 1.9764,
+      "max_drawdown": -5.11,
+      "annualized_volatility": 10.84,
+      "final_value": 1193846.52
+    }
+  },
+  "no_regime_\u03bb=0.5": {
+    "val": {
+      "cumulative_return": 32.84,
+      "sharpe_ratio": 2.5404,
+      "max_drawdown": -5.74,
+      "annualized_volatility": 14.29,
+      "final_value": 1328391.8
+    },
+    "test_bear": {
+      "cumulative_return": -10.32,
+      "sharpe_ratio": -0.7335,
+      "max_drawdown": -19.39,
+      "annualized_volatility": 15.34,
+      "final_value": 896772.85
+    },
+    "test_2023": {
+      "cumulative_return": 30.53,
+      "sharpe_ratio": 2.3502,
+      "max_drawdown": -10.22,
+      "annualized_volatility": 14.5
+    },
+    "test_bull": {
+      "cumulative_return": 28.94,
+      "sharpe_ratio": 2.2032,
+      "max_drawdown": -6.33,
+      "annualized_volatility": 14.58,
+      "final_value": 1289394.8
+    }
+  }
+}

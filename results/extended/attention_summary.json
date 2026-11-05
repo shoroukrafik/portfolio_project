@@ -1,0 +1,77 @@
+{
+  "val": {
+    "top_15_stocks_by_attention": [
+      "NVDA",
+      "IBM",
+      "BA",
+      "CAT",
+      "MMM",
+      "CVX",
+      "VZ",
+      "MRK",
+      "AAPL",
+      "INTC",
+      "AMGN",
+      "GS",
+      "SHW",
+      "MSFT",
+      "NKE"
+    ],
+    "regime_day_counts": {
+      "bull": 141,
+      "bear": 17,
+      "sideways": 73
+    },
+    "n_steps_captured": 231
+  },
+  "test_bear": {
+    "top_15_stocks_by_attention": [
+      "NVDA",
+      "BA",
+      "AAPL",
+      "MMM",
+      "VZ",
+      "SHW",
+      "AMZN",
+      "CVX",
+      "INTC",
+      "DIS",
+      "WMT",
+      "IBM",
+      "GS",
+      "UNH",
+      "NKE"
+    ],
+    "regime_day_counts": {
+      "bull": 5,
+      "bear": 210,
+      "sideways": 15
+    },
+    "n_steps_captured": 230
+  },
+  "test_bull": {
+    "top_15_stocks_by_attention": [
+      "NVDA",
+      "INTC",
+      "MMM",
+      "BA",
+      "NKE",
+      "DIS",
+      "VZ",
+      "CRM",
+      "AMGN",
+      "KO",
+      "UNH",
+      "AMZN",
+      "MRK",
+      "JNJ",
+      "CSCO"
+    ],
+    "regime_day_counts": {
+      "bull": 124,
+      "bear": 10,
+      "sideways": 96
+    },
+    "n_steps_captured": 230
+  }
+}

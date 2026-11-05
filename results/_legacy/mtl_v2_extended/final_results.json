@@ -1,0 +1,47 @@
+{
+  "method": "mtl_v2_multi_agent",
+  "architecture": {
+    "extractor": "AttentionMTLExtractorV2",
+    "n_regime_heads": 3,
+    "deep_heads": true,
+    "features_dim": 192,
+    "head_hidden_dim": 256,
+    "aux_loss": false,
+    "diversity_coef": 0.05,
+    "mixing": "soft_hmm_probabilities"
+  },
+  "best_val_sharpe": 2.1855352873603633,
+  "best_step": 525000,
+  "agent_train": {
+    "cumulative_return": 453.83,
+    "annualized_return": 13.3,
+    "annualized_volatility": 13.85,
+    "sharpe_ratio": 0.9598,
+    "max_drawdown": -29.24,
+    "final_value": 5538339.61
+  },
+  "agent_val": {
+    "cumulative_return": 20.78,
+    "annualized_return": 22.87,
+    "annualized_volatility": 10.47,
+    "sharpe_ratio": 2.1855,
+    "max_drawdown": -4.5,
+    "final_value": 1207810.78
+  },
+  "agent_test_bear": {
+    "cumulative_return": -6.86,
+    "annualized_return": -7.49,
+    "annualized_volatility": 11.49,
+    "sharpe_ratio": -0.6521,
+    "max_drawdown": -13.66,
+    "final_value": 931388.15
+  },
+  "agent_test_bull": {
+    "cumulative_return": 10.21,
+    "annualized_return": 11.24,
+    "annualized_volatility": 10.46,
+    "sharpe_ratio": 1.075,
+    "max_drawdown": -5.43,
+    "final_value": 1102134.99
+  }
+}

@@ -1,0 +1,21 @@
+# Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.claude/
+
+# Large data and trained models (regenerate locally)
+data/
+models/**/*.zip
+*.npy
+
+# Third-party papers (copyrighted) and private notes
+notebooks/*.pdf
+doctor_meeting_briefing.pdf
+build_doctor_briefing_pdf.py
+
+# Superseded dashboard
+dashboard_legacy/

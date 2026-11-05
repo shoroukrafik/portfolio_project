@@ -1,0 +1,52 @@
+{
+  "method": "universal_v6_dji_lr3e4",
+  "universe": "DJI 30 (LR experiment B: lr=3e-4 SB3 default)",
+  "experimental_changes": {
+    "learning_rate": 0.0003,
+    "rationale": "SB3 PPO library default \u2014 test if 1M-budget training prefers literature-standard LR over our 200k-tuned 5e-5"
+  },
+  "best_val_sharpe": 4.167496611870227,
+  "best_step": 925000,
+  "periods": {
+    "train": {
+      "cumulative_return": 1712.57,
+      "annualized_return": 23.53,
+      "annualized_volatility": 30.2,
+      "sharpe_ratio": 0.7792,
+      "max_drawdown": -65.6,
+      "final_value": 18125707.29
+    },
+    "val": {
+      "cumulative_return": 96.92,
+      "annualized_return": 109.43,
+      "annualized_volatility": 26.26,
+      "sharpe_ratio": 4.1675,
+      "max_drawdown": -10.78,
+      "final_value": 1969166.06
+    },
+    "test_bear": {
+      "cumulative_return": -30.94,
+      "annualized_return": -33.35,
+      "annualized_volatility": 27.11,
+      "sharpe_ratio": -1.2302,
+      "max_drawdown": -35.35,
+      "final_value": 690556.69
+    },
+    "test_2023": {
+      "cumulative_return": -2.69,
+      "annualized_return": -2.96,
+      "annualized_volatility": 20.6,
+      "sharpe_ratio": -0.1435,
+      "max_drawdown": -16.51,
+      "final_value": 973096.61
+    },
+    "test_bull": {
+      "cumulative_return": 59.18,
+      "annualized_return": 66.41,
+      "annualized_volatility": 37.95,
+      "sharpe_ratio": 1.7502,
+      "max_drawdown": -25.95,
+      "final_value": 1591754.39
+    }
+  }
+}

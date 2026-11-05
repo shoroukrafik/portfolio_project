@@ -1,0 +1,94 @@
+{
+  "method": "universal_v6_sp100",
+  "universe": "S&P 100 historical subset (90 stocks)",
+  "v6_settings": {
+    "cash_floors": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0
+    },
+    "risk_penalties": {
+      "0": 0.1,
+      "1": 0.5,
+      "2": 0.3
+    },
+    "include_regime_probs": true,
+    "include_vol_features": true,
+    "net_arch": {
+      "pi": [
+        128,
+        64
+      ],
+      "vf": [
+        128,
+        64
+      ]
+    },
+    "feature_columns": [
+      "close",
+      "open",
+      "high",
+      "low",
+      "volume",
+      "rsi",
+      "macd",
+      "macd_signal",
+      "macd_diff",
+      "bb_upper",
+      "bb_lower",
+      "bb_width",
+      "atr",
+      "sma_20",
+      "sma_50",
+      "adx",
+      "cci",
+      "daily_return",
+      "volatility_20d",
+      "mom_60d_norm"
+    ]
+  },
+  "best_val_sharpe": 2.8878589850725644,
+  "best_step": 650000,
+  "periods": {
+    "train": {
+      "cumulative_return": 592.13,
+      "annualized_return": 15.15,
+      "annualized_volatility": 20.97,
+      "sharpe_ratio": 0.7226,
+      "max_drawdown": -47.91,
+      "final_value": 6921324.47
+    },
+    "val": {
+      "cumulative_return": 30.48,
+      "annualized_return": 33.68,
+      "annualized_volatility": 11.66,
+      "sharpe_ratio": 2.8879,
+      "max_drawdown": -4.76,
+      "final_value": 1304808.79
+    },
+    "test_bear": {
+      "cumulative_return": -9.07,
+      "annualized_return": -9.89,
+      "annualized_volatility": 22.74,
+      "sharpe_ratio": -0.435,
+      "max_drawdown": -21.2,
+      "final_value": 909306.84
+    },
+    "test_2023": {
+      "cumulative_return": 11.72,
+      "annualized_return": 12.97,
+      "annualized_volatility": 12.37,
+      "sharpe_ratio": 1.049,
+      "max_drawdown": -10.78,
+      "final_value": 1117231.39
+    },
+    "test_bull": {
+      "cumulative_return": 18.6,
+      "annualized_return": 20.56,
+      "annualized_volatility": 10.54,
+      "sharpe_ratio": 1.9509,
+      "max_drawdown": -5.48,
+      "final_value": 1186040.22
+    }
+  }
+}

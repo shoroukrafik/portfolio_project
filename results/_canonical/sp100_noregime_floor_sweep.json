@@ -1,0 +1,126 @@
+{
+  "checkpoint": "models/saved/ppo_universal_v6_sp100_noregime.zip",
+  "description": "SP100 no_regime model + cash floor sweep",
+  "by_floor": {
+    "0.0": {
+      "val": {
+        "cumulative_return": 31.308334164010997,
+        "annualized_return": 34.600333646513384,
+        "annualized_volatility": 11.867894824660963,
+        "sharpe_ratio": 2.9154567139081324,
+        "max_drawdown": -4.642514764224747
+      },
+      "test_bear": {
+        "cumulative_return": -11.296930574979525,
+        "annualized_return": -12.308223831132835,
+        "annualized_volatility": 23.96973137925661,
+        "sharpe_ratio": -0.5134902697234381,
+        "max_drawdown": -22.244579490380712
+      },
+      "test_2023": {
+        "cumulative_return": 18.155257378575417,
+        "annualized_return": 20.151720631815696,
+        "annualized_volatility": 12.538684089085434,
+        "sharpe_ratio": 1.607163916774743,
+        "max_drawdown": -9.634074569295242
+      },
+      "test_bull": {
+        "cumulative_return": 19.60390634817273,
+        "annualized_return": 21.669543150752823,
+        "annualized_volatility": 10.8791539187717,
+        "sharpe_ratio": 1.9918408464984199,
+        "max_drawdown": -6.129490503896316
+      }
+    },
+    "0.3": {
+      "val": {
+        "cumulative_return": 28.19955371684626,
+        "annualized_return": 31.127680223855858,
+        "annualized_volatility": 10.309466289789757,
+        "sharpe_ratio": 3.0193299389982924,
+        "max_drawdown": -4.642514764224787
+      },
+      "test_bear": {
+        "cumulative_return": -9.08116736462513,
+        "annualized_return": -9.905350126528,
+        "annualized_volatility": 17.351377380912858,
+        "sharpe_ratio": -0.5708682319032634,
+        "max_drawdown": -17.9585935646912
+      },
+      "test_2023": {
+        "cumulative_return": 18.43612962001022,
+        "annualized_return": 20.466062787339446,
+        "annualized_volatility": 12.407031612185419,
+        "sharpe_ratio": 1.6495535295677772,
+        "max_drawdown": -9.63407456929533
+      },
+      "test_bull": {
+        "cumulative_return": 16.97780344881352,
+        "annualized_return": 18.745649242342655,
+        "annualized_volatility": 10.52771937980992,
+        "sharpe_ratio": 1.780599250991919,
+        "max_drawdown": -6.176757382269063
+      }
+    },
+    "0.5": {
+      "val": {
+        "cumulative_return": 26.101717378283972,
+        "annualized_return": 28.788609997277568,
+        "annualized_volatility": 9.480793251431537,
+        "sharpe_ratio": 3.0365191217444467,
+        "max_drawdown": -4.642514764224762
+      },
+      "test_bear": {
+        "cumulative_return": -7.797499944544429,
+        "annualized_return": -8.510709561180585,
+        "annualized_volatility": 13.071281763994385,
+        "sharpe_ratio": -0.6510998473480876,
+        "max_drawdown": -15.097259176886691
+      },
+      "test_2023": {
+        "cumulative_return": 18.61785390066362,
+        "annualized_return": 20.66948200224101,
+        "annualized_volatility": 12.345106995231884,
+        "sharpe_ratio": 1.6743056184303866,
+        "max_drawdown": -9.63407456929526
+      },
+      "test_bull": {
+        "cumulative_return": 15.216118483963935,
+        "annualized_return": 16.787702621441447,
+        "annualized_volatility": 10.358430956301735,
+        "sharpe_ratio": 1.6206800713604554,
+        "max_drawdown": -6.21202576807887
+      }
+    },
+    "0.7": {
+      "val": {
+        "cumulative_return": 24.007900348743494,
+        "annualized_return": 26.457546100399366,
+        "annualized_volatility": 8.888545060578776,
+        "sharpe_ratio": 2.9765890727988937,
+        "max_drawdown": -4.642514764224768
+      },
+      "test_bear": {
+        "cumulative_return": -6.678851119596274,
+        "annualized_return": -7.293837139230586,
+        "annualized_volatility": 9.164406441399974,
+        "sharpe_ratio": -0.7958875663000783,
+        "max_drawdown": -12.256743490198915
+      },
+      "test_2023": {
+        "cumulative_return": 18.796884278372893,
+        "annualized_return": 20.86991631606656,
+        "annualized_volatility": 12.304986482796402,
+        "sharpe_ratio": 1.6960535751294636,
+        "max_drawdown": -9.634074569295237
+      },
+      "test_bull": {
+        "cumulative_return": 13.47419714040512,
+        "annualized_return": 14.854534881839454,
+        "annualized_volatility": 10.24732103668289,
+        "sharpe_ratio": 1.4496017865219475,
+        "max_drawdown": -6.247960559969213
+      }
+    }
+  }
+}

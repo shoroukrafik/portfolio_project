@@ -1,0 +1,97 @@
+{
+  "agent": {
+    "train": {
+      "cumulative_return": 229.8,
+      "annualized_return": 28.78,
+      "annualized_volatility": 14.1,
+      "sharpe_ratio": 2.0405,
+      "max_drawdown": -16.62
+    },
+    "val": {
+      "cumulative_return": 29.24,
+      "annualized_return": 32.29,
+      "annualized_volatility": 11.91,
+      "sharpe_ratio": 2.7111,
+      "max_drawdown": -4.68
+    },
+    "test_bear": {
+      "cumulative_return": -19.67,
+      "annualized_return": -21.34,
+      "annualized_volatility": 19.42,
+      "sharpe_ratio": -1.0989,
+      "max_drawdown": -25.26
+    },
+    "test_bull": {
+      "cumulative_return": 27.38,
+      "annualized_return": 30.37,
+      "annualized_volatility": 12.86,
+      "sharpe_ratio": 2.3615,
+      "max_drawdown": -7.78
+    }
+  },
+  "equal_weight": {
+    "train": {
+      "cumulative_return": 156.41,
+      "annualized_return": 21.67,
+      "annualized_volatility": 19.66,
+      "sharpe_ratio": 1.1019,
+      "max_drawdown": -32.27
+    },
+    "val": {
+      "cumulative_return": 25.08,
+      "annualized_return": 25.08,
+      "annualized_volatility": 11.84,
+      "sharpe_ratio": 2.1187,
+      "max_drawdown": -5.47
+    },
+    "test_bear": {
+      "cumulative_return": -11.43,
+      "annualized_return": -11.47,
+      "annualized_volatility": 21.5,
+      "sharpe_ratio": -0.5337,
+      "max_drawdown": -23.26
+    },
+    "test_bull": {
+      "cumulative_return": 19.24,
+      "annualized_return": 19.32,
+      "annualized_volatility": 11.06,
+      "sharpe_ratio": 1.7467,
+      "max_drawdown": -6.36
+    }
+  },
+  "reward_history": [
+    [
+      25000,
+      70.33917042857145
+    ],
+    [
+      50000,
+      71.53158997619049
+    ],
+    [
+      75000,
+      72.01586500000002
+    ],
+    [
+      100000,
+      72.47554845238096
+    ],
+    [
+      125000,
+      72.8168044
+    ],
+    [
+      150000,
+      73.07742458
+    ],
+    [
+      175000,
+      73.08191556000001
+    ],
+    [
+      200000,
+      72.84091184
+    ]
+  ],
+  "note": "200k-step quick test with downside-only risk penalty"
+}

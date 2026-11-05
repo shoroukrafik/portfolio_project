@@ -1,0 +1,49 @@
+{
+  "method": "universal_v6_ndx_mom_2m",
+  "universe": "NASDAQ-100 historical subset + long-momentum features",
+  "best_val_sharpe": 2.1112781213445766,
+  "best_step": 1250000,
+  "total_steps": 2000000,
+  "periods": {
+    "train": {
+      "cumulative_return": 1892.75,
+      "annualized_return": 24.39,
+      "annualized_volatility": 22.38,
+      "sharpe_ratio": 1.0895,
+      "max_drawdown": -46.04,
+      "final_value": 19927457.79
+    },
+    "val": {
+      "cumulative_return": 34.8,
+      "annualized_return": 38.51,
+      "annualized_volatility": 18.24,
+      "sharpe_ratio": 2.1113,
+      "max_drawdown": -8.25,
+      "final_value": 1347965.2
+    },
+    "test_bear": {
+      "cumulative_return": -17.21,
+      "annualized_return": -18.69,
+      "annualized_volatility": 31.06,
+      "sharpe_ratio": -0.6017,
+      "max_drawdown": -29.36,
+      "final_value": 827922.14
+    },
+    "test_2023": {
+      "cumulative_return": 28.32,
+      "annualized_return": 31.57,
+      "annualized_volatility": 18.2,
+      "sharpe_ratio": 1.7345,
+      "max_drawdown": -12.62,
+      "final_value": 1283163.53
+    },
+    "test_bull": {
+      "cumulative_return": -2.45,
+      "annualized_return": -2.69,
+      "annualized_volatility": 17.87,
+      "sharpe_ratio": -0.1503,
+      "max_drawdown": -13.36,
+      "final_value": 975458.58
+    }
+  }
+}

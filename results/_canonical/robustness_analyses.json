@@ -1,0 +1,262 @@
+{
+  "sortino_calmar": {
+    "DJI": {
+      "val": {
+        "sharpe": 2.0378957974499876,
+        "sortino": 2.757493223040497,
+        "calmar": 4.944647144313459,
+        "sharpe_official": 2.2672
+      },
+      "test_bear": {
+        "sharpe": -0.8403502547674263,
+        "sortino": -1.2960839119265088,
+        "calmar": -0.6981738154323539,
+        "sharpe_official": -0.8501
+      },
+      "test_2023": {
+        "sharpe": 1.889422511931821,
+        "sortino": 3.841204517082524,
+        "calmar": 2.4907477452905624,
+        "sharpe_official": 2.0949
+      },
+      "test_bull": {
+        "sharpe": 2.0615744083719107,
+        "sortino": 3.145774483926382,
+        "calmar": 5.696017245007561,
+        "sharpe_official": 2.2989
+      }
+    },
+    "SP100": {
+      "val": {
+        "sharpe": 2.9219796605158104,
+        "sortino": 4.4840593560146145,
+        "calmar": 8.281982265829045,
+        "sharpe_official": 3.4087
+      },
+      "test_bear": {
+        "sharpe": -0.6899830875691052,
+        "sortino": -1.136141345677732,
+        "calmar": -0.6267986843133388,
+        "sharpe_official": -0.7278
+      },
+      "test_2023": {
+        "sharpe": 1.7085319225131572,
+        "sortino": 2.8774784857356006,
+        "calmar": 2.3206080221533374,
+        "sharpe_official": 1.838
+      },
+      "test_bull": {
+        "sharpe": 1.608500407749358,
+        "sortino": 2.2335237883310177,
+        "calmar": 2.8235593061129785,
+        "sharpe_official": 1.6959
+      }
+    },
+    "NDX": {
+      "val": {
+        "sharpe": 1.7304553299534018,
+        "sortino": 2.5010510981140865,
+        "calmar": 4.04893641746824,
+        "sharpe_official": 1.8819
+      },
+      "test_bear": {
+        "sharpe": -0.33299922067036264,
+        "sortino": -0.5533129119077517,
+        "calmar": -0.581830495228142,
+        "sharpe_official": -0.4472
+      },
+      "test_2023": {
+        "sharpe": 1.7229586879493295,
+        "sortino": 2.889481349746228,
+        "calmar": 2.7009588356855305,
+        "sharpe_official": 1.8642
+      },
+      "test_bull": {
+        "sharpe": 1.0690812285127262,
+        "sortino": 1.4946662200015,
+        "calmar": 1.682685005191946,
+        "sharpe_official": 1.0695
+      }
+    }
+  },
+  "bootstrap_ci": {
+    "DJI": {
+      "val": {
+        "sharpe_mean": 2.0707832763976164,
+        "sharpe_ci_low": 0.08544109228627876,
+        "sharpe_ci_high": 4.123074413747373,
+        "sharpe_std": 0.995872539179122,
+        "n_bootstrap": 1000
+      },
+      "test_bear": {
+        "sharpe_mean": -0.8091581081960088,
+        "sharpe_ci_low": -2.859582684607925,
+        "sharpe_ci_high": 1.2542379154096694,
+        "sharpe_std": 1.0273809372766387,
+        "n_bootstrap": 1000
+      },
+      "test_2023": {
+        "sharpe_mean": 1.8890894825109843,
+        "sharpe_ci_low": -0.19636415440095756,
+        "sharpe_ci_high": 3.930328760043352,
+        "sharpe_std": 1.0287303943420874,
+        "n_bootstrap": 1000
+      },
+      "test_bull": {
+        "sharpe_mean": 2.02815210588952,
+        "sharpe_ci_low": 0.06973600012760278,
+        "sharpe_ci_high": 4.128498496121941,
+        "sharpe_std": 1.0174682650760016,
+        "n_bootstrap": 1000
+      }
+    },
+    "SP100": {
+      "val": {
+        "sharpe_mean": 2.965059839557575,
+        "sharpe_ci_low": 1.0915522876657344,
+        "sharpe_ci_high": 5.147990438092548,
+        "sharpe_std": 1.0554642310042375,
+        "n_bootstrap": 1000
+      },
+      "test_bear": {
+        "sharpe_mean": -0.6722378091432728,
+        "sharpe_ci_low": -2.561618395146702,
+        "sharpe_ci_high": 1.5007055706498882,
+        "sharpe_std": 1.0421143104625226,
+        "n_bootstrap": 1000
+      },
+      "test_2023": {
+        "sharpe_mean": 1.7140170510310264,
+        "sharpe_ci_low": -0.29653468742390693,
+        "sharpe_ci_high": 3.8953645653205555,
+        "sharpe_std": 1.082103380482097,
+        "n_bootstrap": 1000
+      },
+      "test_bull": {
+        "sharpe_mean": 1.6168831549346658,
+        "sharpe_ci_low": -0.39336100329509305,
+        "sharpe_ci_high": 3.9030813273391307,
+        "sharpe_std": 1.0777940862622115,
+        "n_bootstrap": 1000
+      }
+    },
+    "NDX": {
+      "val": {
+        "sharpe_mean": 1.7488661676973056,
+        "sharpe_ci_low": 0.06620007722988258,
+        "sharpe_ci_high": 3.7337477901422846,
+        "sharpe_std": 0.9142644128866906,
+        "n_bootstrap": 1000
+      },
+      "test_bear": {
+        "sharpe_mean": -0.3117515764360385,
+        "sharpe_ci_low": -2.073068665093828,
+        "sharpe_ci_high": 1.5671194282705496,
+        "sharpe_std": 0.9436811931786283,
+        "n_bootstrap": 1000
+      },
+      "test_2023": {
+        "sharpe_mean": 1.7309689934611323,
+        "sharpe_ci_low": -0.28886463064042195,
+        "sharpe_ci_high": 3.7443073043628594,
+        "sharpe_std": 1.0227671367466418,
+        "n_bootstrap": 1000
+      },
+      "test_bull": {
+        "sharpe_mean": 1.0561678638264864,
+        "sharpe_ci_low": -0.8408315479472256,
+        "sharpe_ci_high": 3.0754316470297645,
+        "sharpe_std": 1.0148269017620302,
+        "n_bootstrap": 1000
+      }
+    }
+  },
+  "turnover": {
+    "DJI": {
+      "val": {
+        "avg_per_day": 0.08936199913833938,
+        "std_per_day": 0.20107861906632288,
+        "annualised": 22.519223782861523,
+        "annual_cost_pp": 2.251922378286152
+      },
+      "test_bear": {
+        "avg_per_day": 0.04598720110729174,
+        "std_per_day": 0.18063386447175428,
+        "annualised": 11.588774679037519,
+        "annual_cost_pp": 1.158877467903752
+      },
+      "test_2023": {
+        "avg_per_day": 0.06343997447351157,
+        "std_per_day": 0.1335495654690475,
+        "annualised": 15.986873567324917,
+        "annual_cost_pp": 1.5986873567324917
+      },
+      "test_bull": {
+        "avg_per_day": 0.09518485874197889,
+        "std_per_day": 0.22004854888843314,
+        "annualised": 23.986584402978682,
+        "annual_cost_pp": 2.3986584402978686
+      }
+    },
+    "SP100": {
+      "val": {
+        "avg_per_day": 0.0513369694777319,
+        "std_per_day": 0.12192395037443,
+        "annualised": 12.936916308388438,
+        "annual_cost_pp": 1.293691630838844
+      },
+      "test_bear": {
+        "avg_per_day": 0.05473814102084941,
+        "std_per_day": 0.12270817719653378,
+        "annualised": 13.79401153725405,
+        "annual_cost_pp": 1.379401153725405
+      },
+      "test_2023": {
+        "avg_per_day": 0.05787102310926441,
+        "std_per_day": 0.14419989713266146,
+        "annualised": 14.583497823534632,
+        "annual_cost_pp": 1.4583497823534632
+      },
+      "test_bull": {
+        "avg_per_day": 0.08532957370519052,
+        "std_per_day": 0.1650514493642966,
+        "annualised": 21.50305257370801,
+        "annual_cost_pp": 2.1503052573708015
+      }
+    },
+    "NDX": {
+      "val": {
+        "avg_per_day": 0.014949246263131499,
+        "std_per_day": 0.13051313891171096,
+        "annualised": 3.7672100583091375,
+        "annual_cost_pp": 0.3767210058309137
+      },
+      "test_bear": {
+        "avg_per_day": 0.017604928091575094,
+        "std_per_day": 0.1306155398480354,
+        "annualised": 4.4364418790769236,
+        "annual_cost_pp": 0.44364418790769233
+      },
+      "test_2023": {
+        "avg_per_day": 0.013300388050674085,
+        "std_per_day": 0.13102946716112418,
+        "annualised": 3.351697788769869,
+        "annual_cost_pp": 0.3351697788769869
+      },
+      "test_bull": {
+        "avg_per_day": 0.01584900068688536,
+        "std_per_day": 0.130583893103342,
+        "annualised": 3.9939481730951107,
+        "annual_cost_pp": 0.3993948173095111
+      }
+    }
+  },
+  "metadata": {
+    "canonical_models": {
+      "DJI": "DJI mom 2M DEFENSIVE (step 800k) + 70% bear cash floor",
+      "SP100": "SP100 mom 2M DEFENSIVE (step 1.15M) + 30% bear cash floor",
+      "NDX": "NDX 2017+mom DEFENSIVE (step 100k), no overlay"
+    },
+    "rule": "Option A: DEFENSIVE checkpoint (val-Sharpe-best, step >= 20%) + cash-floor sweep {0,30,50,70} pick max wins (val-Sharpe tiebreaker)"
+  }
+}

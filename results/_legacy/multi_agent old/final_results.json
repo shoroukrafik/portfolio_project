@@ -1,0 +1,46 @@
+{
+  "method": "multi_agent_hard_switch",
+  "periods": {
+    "val": {
+      "cumulative_return": 28.51,
+      "annualized_return": 31.47,
+      "annualized_volatility": 11.01,
+      "sharpe_ratio": 2.8586,
+      "max_drawdown": -3.98,
+      "final_value": 1285052.73
+    },
+    "test_bear": {
+      "cumulative_return": -14.75,
+      "annualized_return": -16.04,
+      "annualized_volatility": 17.66,
+      "sharpe_ratio": -0.9083,
+      "max_drawdown": -19.5,
+      "final_value": 852521.33
+    },
+    "test_bull": {
+      "cumulative_return": 18.09,
+      "annualized_return": 19.98,
+      "annualized_volatility": 11.53,
+      "sharpe_ratio": 1.7334,
+      "max_drawdown": -5.79,
+      "final_value": 1180893.23
+    }
+  },
+  "specialist_usage_pct": {
+    "val": {
+      "0": 31.17,
+      "1": 0.0,
+      "2": 68.83
+    },
+    "test_bear": {
+      "0": 0.0,
+      "1": 33.04,
+      "2": 66.96
+    },
+    "test_bull": {
+      "0": 53.04,
+      "1": 0.0,
+      "2": 46.96
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "method": "sp100_mom_noregimeobs_2m",
+  "universe": "SP100 + long-momentum + regime-lambda kept + regime obs REMOVED",
+  "best_val_sharpe": 3.286737329255123,
+  "best_step": 1125000,
+  "periods": {
+    "train": {
+      "cumulative_return": 988.08,
+      "annualized_return": 19.02,
+      "annualized_volatility": 21.74,
+      "sharpe_ratio": 0.8749,
+      "max_drawdown": -43.22,
+      "final_value": 10880848.73
+    },
+    "val": {
+      "cumulative_return": 42.28,
+      "annualized_return": 46.92,
+      "annualized_volatility": 14.27,
+      "sharpe_ratio": 3.2867,
+      "max_drawdown": -4.92,
+      "final_value": 1422819.79
+    },
+    "test_bear": {
+      "cumulative_return": -18.82,
+      "annualized_return": -20.42,
+      "annualized_volatility": 26.09,
+      "sharpe_ratio": -0.7829,
+      "max_drawdown": -28.0,
+      "final_value": 811812.6
+    },
+    "test_2023": {
+      "cumulative_return": 27.23,
+      "annualized_return": 30.35,
+      "annualized_volatility": 14.93,
+      "sharpe_ratio": 2.0324,
+      "max_drawdown": -10.43,
+      "final_value": 1272347.12
+    },
+    "test_bull": {
+      "cumulative_return": 21.11,
+      "annualized_return": 23.35,
+      "annualized_volatility": 12.92,
+      "sharpe_ratio": 1.8067,
+      "max_drawdown": -8.22,
+      "final_value": 1211068.55
+    }
+  },
+  "config": {
+    "include_regime": false,
+    "include_regime_probs": false,
+    "include_vol_features": false,
+    "risk_penalties": {
+      "0": 0.1,
+      "1": 0.5,
+      "2": 0.3
+    },
+    "cash_floors_train": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0
+    },
+    "long_mom_features": true,
+    "total_steps": 2000000
+  }
+}

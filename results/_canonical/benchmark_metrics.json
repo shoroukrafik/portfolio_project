@@ -1,0 +1,122 @@
+{
+  "BH|dji|val": {
+    "cumulative_return": 20.230387384979487,
+    "sharpe_ratio": 1.6368798616770661,
+    "max_drawdown": -6.615517171871395
+  },
+  "EW|dji|val": {
+    "cumulative_return": 23.357864257448323,
+    "sharpe_ratio": 1.9389940813610287,
+    "max_drawdown": -5.432411577256277
+  },
+  "BH|dji|test_bear": {
+    "cumulative_return": -9.396755740982465,
+    "sharpe_ratio": -0.47613082005663354,
+    "max_drawdown": -21.940803824764803
+  },
+  "EW|dji|test_bear": {
+    "cumulative_return": -10.954457188295086,
+    "sharpe_ratio": -0.508010602332493,
+    "max_drawdown": -23.5629705071469
+  },
+  "BH|dji|test_2023": {
+    "cumulative_return": 13.740695853109862,
+    "sharpe_ratio": 1.215028919351993,
+    "max_drawdown": -9.01776186121204
+  },
+  "EW|dji|test_2023": {
+    "cumulative_return": 25.763087851066068,
+    "sharpe_ratio": 2.1787893949306123,
+    "max_drawdown": -8.336966028176203
+  },
+  "BH|dji|test_bull": {
+    "cumulative_return": 12.882636547713378,
+    "sharpe_ratio": 1.1355571453423603,
+    "max_drawdown": -6.05564314476138
+  },
+  "EW|dji|test_bull": {
+    "cumulative_return": 18.830941109292667,
+    "sharpe_ratio": 1.7044252368198443,
+    "max_drawdown": -6.193969314245545
+  },
+  "BH|sp100|val": {
+    "cumulative_return": 28.793058018340577,
+    "sharpe_ratio": 2.2140844726175994,
+    "max_drawdown": -5.212537590104862
+  },
+  "EW|sp100|val": {
+    "cumulative_return": 31.45633789254361,
+    "sharpe_ratio": 2.523383159183092,
+    "max_drawdown": -5.222322517803811
+  },
+  "BH|sp100|test_bear": {
+    "cumulative_return": -19.953050663444415,
+    "sharpe_ratio": -0.8287076679069182,
+    "max_drawdown": -25.4250966192304
+  },
+  "EW|sp100|test_bear": {
+    "cumulative_return": -9.791633150526547,
+    "sharpe_ratio": -0.4432801910060089,
+    "max_drawdown": -22.423887093603845
+  },
+  "BH|sp100|test_2023": {
+    "cumulative_return": 24.729487207888678,
+    "sharpe_ratio": 1.9069922109825963,
+    "max_drawdown": -10.276617093291367
+  },
+  "EW|sp100|test_2023": {
+    "cumulative_return": 19.557102476163692,
+    "sharpe_ratio": 1.5568350555158357,
+    "max_drawdown": -10.252908980542234
+  },
+  "BH|sp100|test_bull": {
+    "cumulative_return": 24.544625131108667,
+    "sharpe_ratio": 1.949306518372459,
+    "max_drawdown": -8.485144350207378
+  },
+  "EW|sp100|test_bull": {
+    "cumulative_return": 17.415660570858414,
+    "sharpe_ratio": 1.6671540605510469,
+    "max_drawdown": -6.080550950445226
+  },
+  "BH|ndx|val": {
+    "cumulative_return": 28.55862131992628,
+    "sharpe_ratio": 1.5451510853275623,
+    "max_drawdown": -10.925933325954261
+  },
+  "EW|ndx|val": {
+    "cumulative_return": 29.861384785899702,
+    "sharpe_ratio": 1.8406470157798822,
+    "max_drawdown": -7.180280165327957
+  },
+  "BH|ndx|test_bear": {
+    "cumulative_return": -33.70553536753752,
+    "sharpe_ratio": -1.041520877883312,
+    "max_drawdown": -35.28366867852477
+  },
+  "EW|ndx|test_bear": {
+    "cumulative_return": -17.64870955117459,
+    "sharpe_ratio": -0.6115984853976444,
+    "max_drawdown": -25.378835742644313
+  },
+  "BH|ndx|test_2023": {
+    "cumulative_return": 54.89724626850039,
+    "sharpe_ratio": 3.0639580222741842,
+    "max_drawdown": -10.93201866998834
+  },
+  "EW|ndx|test_2023": {
+    "cumulative_return": 38.587164501747175,
+    "sharpe_ratio": 2.5291048884729754,
+    "max_drawdown": -10.032679133242668
+  },
+  "BH|ndx|test_bull": {
+    "cumulative_return": 28.126011968365017,
+    "sharpe_ratio": 1.5566927072819672,
+    "max_drawdown": -13.58142680828412
+  },
+  "EW|ndx|test_bull": {
+    "cumulative_return": 12.013204608161644,
+    "sharpe_ratio": 0.8621222309245582,
+    "max_drawdown": -8.930804017321972
+  }
+}

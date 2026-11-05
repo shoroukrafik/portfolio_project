@@ -1,0 +1,54 @@
+{
+  "method": "universal_v6_sp100_2015_mom",
+  "universe": "SP100 2015-cutoff (99 stocks) + long-momentum",
+  "experimental_changes": {
+    "train_window": "2015-2020 (6yr vs production 14yr)",
+    "cutoff": "2015-01-15 (vs production 2007-01-15)",
+    "features": "V6 + mom_120d_norm + mom_252d_norm",
+    "total_steps": 1000000
+  },
+  "best_val_sharpe": 2.915715730322879,
+  "best_step": 575000,
+  "periods": {
+    "train": {
+      "cumulative_return": 339.47,
+      "annualized_return": 28.45,
+      "annualized_volatility": 20.38,
+      "sharpe_ratio": 1.3961,
+      "max_drawdown": -35.84,
+      "final_value": 4394732.62
+    },
+    "val": {
+      "cumulative_return": 35.0,
+      "annualized_return": 38.73,
+      "annualized_volatility": 13.28,
+      "sharpe_ratio": 2.9157,
+      "max_drawdown": -4.78,
+      "final_value": 1349957.9
+    },
+    "test_bear": {
+      "cumulative_return": -11.75,
+      "annualized_return": -12.8,
+      "annualized_volatility": 24.54,
+      "sharpe_ratio": -0.5216,
+      "max_drawdown": -23.69,
+      "final_value": 882479.73
+    },
+    "test_2023": {
+      "cumulative_return": 21.53,
+      "annualized_return": 23.93,
+      "annualized_volatility": 13.01,
+      "sharpe_ratio": 1.8398,
+      "max_drawdown": -10.04,
+      "final_value": 1215257.07
+    },
+    "test_bull": {
+      "cumulative_return": 23.46,
+      "annualized_return": 25.97,
+      "annualized_volatility": 11.61,
+      "sharpe_ratio": 2.2377,
+      "max_drawdown": -6.19,
+      "final_value": 1234583.19
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "checkpoint": "models/saved/checkpoints/sp100_mom_noregimeobs_2m/step_1125000.zip",
+  "defensive_step": 1125000,
+  "description": "sp100_mom_noregimeobs_2m + cash floor sweep",
+  "by_floor": {
+    "0.0": {
+      "val": {
+        "cumulative_return": 42.28197915276923,
+        "sharpe_ratio": 3.286737329255123,
+        "max_drawdown": -4.9168533010091195
+      },
+      "test_bear": {
+        "cumulative_return": -18.818740495777142,
+        "sharpe_ratio": -0.7828660145881594,
+        "max_drawdown": -27.996571282551542
+      },
+      "test_2023": {
+        "cumulative_return": 27.23471170074687,
+        "sharpe_ratio": 2.032446983711293,
+        "max_drawdown": -10.433686182275336
+      },
+      "test_bull": {
+        "cumulative_return": 21.106854632954786,
+        "sharpe_ratio": 1.8067044891765074,
+        "max_drawdown": -8.216188974054516
+      }
+    },
+    "0.3": {
+      "val": {
+        "cumulative_return": 39.11093352532473,
+        "sharpe_ratio": 3.4481882030189124,
+        "max_drawdown": -4.916853301009126
+      },
+      "test_bear": {
+        "cumulative_return": -15.691321032344053,
+        "sharpe_ratio": -0.888328833368489,
+        "max_drawdown": -23.17432346206831
+      },
+      "test_2023": {
+        "cumulative_return": 27.668050886960938,
+        "sharpe_ratio": 2.0848963531047056,
+        "max_drawdown": -10.433686182275316
+      },
+      "test_bull": {
+        "cumulative_return": 18.337590179267238,
+        "sharpe_ratio": 1.6110265744905323,
+        "max_drawdown": -8.231025334715927
+      }
+    },
+    "0.5": {
+      "val": {
+        "cumulative_return": 36.831284583785994,
+        "sharpe_ratio": 3.510519404043747,
+        "max_drawdown": -4.916853301009167
+      },
+      "test_bear": {
+        "cumulative_return": -13.632726333501877,
+        "sharpe_ratio": -1.0181437082708167,
+        "max_drawdown": -19.702482360011526
+      },
+      "test_2023": {
+        "cumulative_return": 27.956379673317766,
+        "sharpe_ratio": 2.1170534808706507,
+        "max_drawdown": -10.433686182275371
+      },
+      "test_bull": {
+        "cumulative_return": 16.358897531636707,
+        "sharpe_ratio": 1.4567097469360397,
+        "max_drawdown": -8.278009497241277
+      }
+    },
+    "0.7": {
+      "val": {
+        "cumulative_return": 34.54334309763914,
+        "sharpe_ratio": 3.493334551045018,
+        "max_drawdown": -4.9168533010091195
+      },
+      "test_bear": {
+        "cumulative_return": -11.735326645143406,
+        "sharpe_ratio": -1.2297368245071008,
+        "max_drawdown": -16.219394388123774
+      },
+      "test_2023": {
+        "cumulative_return": 28.240909415808922,
+        "sharpe_ratio": 2.145743952467911,
+        "max_drawdown": -10.43368618227534
+      },
+      "test_bull": {
+        "cumulative_return": 14.404510118611968,
+        "sharpe_ratio": 1.2940003429054163,
+        "max_drawdown": -8.32545381879892
+      }
+    }
+  }
+}

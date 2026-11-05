@@ -1,0 +1,176 @@
+{
+  "checkpoint": "models/saved/checkpoints/universal_v6_sp100_mom_2m/step_1150000.zip",
+  "floor_only_applies_to": "bear (regime_id=1)",
+  "by_floor": {
+    "0.0": {
+      "val": {
+        "cumulative_return": 39.77,
+        "annualized_return": 44.09,
+        "annualized_volatility": 13.93,
+        "sharpe_ratio": 3.1644,
+        "max_drawdown": -4.98,
+        "final_value": 1397697.44
+      },
+      "test_bear": {
+        "cumulative_return": -14.88,
+        "annualized_return": -16.19,
+        "annualized_volatility": 25.99,
+        "sharpe_ratio": -0.6227,
+        "max_drawdown": -26.69,
+        "final_value": 851161.37
+      },
+      "test_2023": {
+        "cumulative_return": 23.0,
+        "annualized_return": 25.59,
+        "annualized_volatility": 14.29,
+        "sharpe_ratio": 1.7904,
+        "max_drawdown": -11.2,
+        "final_value": 1230038.87
+      },
+      "test_bull": {
+        "cumulative_return": 21.01,
+        "annualized_return": 23.24,
+        "annualized_volatility": 12.19,
+        "sharpe_ratio": 1.9065,
+        "max_drawdown": -7.07,
+        "final_value": 1210076.57
+      }
+    },
+    "0.2": {
+      "val": {
+        "cumulative_return": 38.15,
+        "annualized_return": 42.26,
+        "annualized_volatility": 12.7,
+        "sharpe_ratio": 3.329,
+        "max_drawdown": -4.98,
+        "final_value": 1381460.18
+      },
+      "test_bear": {
+        "cumulative_return": -13.41,
+        "annualized_return": -14.59,
+        "annualized_volatility": 21.39,
+        "sharpe_ratio": -0.6822,
+        "max_drawdown": -23.67,
+        "final_value": 865922.1
+      },
+      "test_2023": {
+        "cumulative_return": 23.25,
+        "annualized_return": 25.87,
+        "annualized_volatility": 14.19,
+        "sharpe_ratio": 1.8229,
+        "max_drawdown": -11.2,
+        "final_value": 1232534.88
+      },
+      "test_bull": {
+        "cumulative_return": 19.17,
+        "annualized_return": 21.18,
+        "annualized_volatility": 11.94,
+        "sharpe_ratio": 1.7735,
+        "max_drawdown": -7.09,
+        "final_value": 1191670.93
+      }
+    },
+    "0.3": {
+      "val": {
+        "cumulative_return": 37.27,
+        "annualized_return": 41.28,
+        "annualized_volatility": 12.11,
+        "sharpe_ratio": 3.4087,
+        "max_drawdown": -4.98,
+        "final_value": 1372686.31
+      },
+      "test_bear": {
+        "cumulative_return": -12.71,
+        "annualized_return": -13.84,
+        "annualized_volatility": 19.02,
+        "sharpe_ratio": -0.7278,
+        "max_drawdown": -22.08,
+        "final_value": 872874.12
+      },
+      "test_2023": {
+        "cumulative_return": 23.37,
+        "annualized_return": 26.0,
+        "annualized_volatility": 14.15,
+        "sharpe_ratio": 1.838,
+        "max_drawdown": -11.2,
+        "final_value": 1233705.55
+      },
+      "test_bull": {
+        "cumulative_return": 18.17,
+        "annualized_return": 20.07,
+        "annualized_volatility": 11.84,
+        "sharpe_ratio": 1.6959,
+        "max_drawdown": -7.11,
+        "final_value": 1181687.9
+      }
+    },
+    "0.5": {
+      "val": {
+        "cumulative_return": 35.49,
+        "annualized_return": 39.29,
+        "annualized_volatility": 11.11,
+        "sharpe_ratio": 3.5362,
+        "max_drawdown": -4.98,
+        "final_value": 1354940.15
+      },
+      "test_bear": {
+        "cumulative_return": -11.46,
+        "annualized_return": -12.49,
+        "annualized_volatility": 14.43,
+        "sharpe_ratio": -0.8654,
+        "max_drawdown": -18.91,
+        "final_value": 885382.26
+      },
+      "test_2023": {
+        "cumulative_return": 23.6,
+        "annualized_return": 26.26,
+        "annualized_volatility": 14.08,
+        "sharpe_ratio": 1.8657,
+        "max_drawdown": -11.2,
+        "final_value": 1236019.47
+      },
+      "test_bull": {
+        "cumulative_return": 16.17,
+        "annualized_return": 17.85,
+        "annualized_volatility": 11.66,
+        "sharpe_ratio": 1.5309,
+        "max_drawdown": -7.15,
+        "final_value": 1161720.78
+      }
+    },
+    "0.7": {
+      "val": {
+        "cumulative_return": 33.69,
+        "annualized_return": 37.27,
+        "annualized_volatility": 10.39,
+        "sharpe_ratio": 3.5862,
+        "max_drawdown": -4.98,
+        "final_value": 1336943.25
+      },
+      "test_bear": {
+        "cumulative_return": -10.4,
+        "annualized_return": -11.34,
+        "annualized_volatility": 10.29,
+        "sharpe_ratio": -1.1022,
+        "max_drawdown": -15.75,
+        "final_value": 895967.04
+      },
+      "test_2023": {
+        "cumulative_return": 23.83,
+        "annualized_return": 26.52,
+        "annualized_volatility": 14.03,
+        "sharpe_ratio": 1.8903,
+        "max_drawdown": -11.2,
+        "final_value": 1238303.44
+      },
+      "test_bull": {
+        "cumulative_return": 14.2,
+        "annualized_return": 15.66,
+        "annualized_volatility": 11.54,
+        "sharpe_ratio": 1.3565,
+        "max_drawdown": -7.19,
+        "final_value": 1141993.05
+      }
+    }
+  }
+}

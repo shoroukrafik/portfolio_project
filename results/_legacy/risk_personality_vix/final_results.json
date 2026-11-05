@@ -1,0 +1,50 @@
+{
+  "method": "vix_gated_risk_personality",
+  "lambda_values": {
+    "aggressive": 0.05,
+    "balanced": 0.3,
+    "conservative": 0.8
+  },
+  "vix_thresholds": {
+    "low_33pct": 12.829999923706056,
+    "high_67pct": 17.060599479675293,
+    "computed_from": "train_data.csv (Phase 5 train 2016-03 to 2020-12)"
+  },
+  "periods": {
+    "val": {
+      "cumulative_return": 40.36,
+      "sharpe_ratio": 2.7696,
+      "max_drawdown": -6.52,
+      "annualized_volatility": 16.16
+    },
+    "test_bear": {
+      "cumulative_return": -21.45,
+      "sharpe_ratio": -0.9071,
+      "max_drawdown": -31.28,
+      "annualized_volatility": 25.62
+    },
+    "test_bull": {
+      "cumulative_return": 29.79,
+      "sharpe_ratio": 1.7538,
+      "max_drawdown": -11.04,
+      "annualized_volatility": 18.85
+    }
+  },
+  "personality_usage_pct": {
+    "val": {
+      "aggressive": 0.0,
+      "balanced": 28.6,
+      "conservative": 71.4
+    },
+    "test_bear": {
+      "aggressive": 0.0,
+      "balanced": 0.0,
+      "conservative": 100.0
+    },
+    "test_bull": {
+      "aggressive": 13.9,
+      "balanced": 59.6,
+      "conservative": 26.5
+    }
+  }
+}

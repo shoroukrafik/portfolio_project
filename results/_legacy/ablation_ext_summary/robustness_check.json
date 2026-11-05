@@ -1,0 +1,79 @@
+[
+  {
+    "system": "FULL",
+    "saved_step (single-peak)": 625000,
+    "saved_sharpe": 2.3928,
+    "rolling_mean_at_saved": 2.0201,
+    "spike_gap": 0.3727,
+    "window_peak_step": 700000,
+    "window_peak_sharpe": 2.2548,
+    "same_choice": false,
+    "robust": false
+  },
+  {
+    "system": "VANILLA",
+    "saved_step (single-peak)": 675000,
+    "saved_sharpe": 2.1068,
+    "rolling_mean_at_saved": 1.8356,
+    "spike_gap": 0.2712,
+    "window_peak_step": 125000,
+    "window_peak_sharpe": 1.9864,
+    "same_choice": false,
+    "robust": false
+  },
+  {
+    "system": "no_dsr",
+    "saved_step (single-peak)": 375000,
+    "saved_sharpe": 2.1474,
+    "rolling_mean_at_saved": 2.0019,
+    "spike_gap": 0.1456,
+    "window_peak_step": 425000,
+    "window_peak_sharpe": 2.0534,
+    "same_choice": false,
+    "robust": false
+  },
+  {
+    "system": "no_attention",
+    "saved_step (single-peak)": 25000,
+    "saved_sharpe": 2.0692,
+    "rolling_mean_at_saved": 2.0692,
+    "spike_gap": 0.0,
+    "window_peak_step": 125000,
+    "window_peak_sharpe": 1.9962,
+    "same_choice": false,
+    "robust": false
+  },
+  {
+    "system": "no_regime_\u03bb=0.1",
+    "saved_step (single-peak)": 775000,
+    "saved_sharpe": 2.8137,
+    "rolling_mean_at_saved": 2.6257,
+    "spike_gap": 0.188,
+    "window_peak_step": 850000,
+    "window_peak_sharpe": 2.7025,
+    "same_choice": false,
+    "robust": false
+  },
+  {
+    "system": "no_regime_\u03bb=0.3",
+    "saved_step (single-peak)": 700000,
+    "saved_sharpe": 2.5825,
+    "rolling_mean_at_saved": 2.5064,
+    "spike_gap": 0.076,
+    "window_peak_step": 700000,
+    "window_peak_sharpe": 2.5064,
+    "same_choice": true,
+    "robust": true
+  },
+  {
+    "system": "no_regime_\u03bb=0.5",
+    "saved_step (single-peak)": 625000,
+    "saved_sharpe": 2.5404,
+    "rolling_mean_at_saved": 2.2012,
+    "spike_gap": 0.3392,
+    "window_peak_step": 675000,
+    "window_peak_sharpe": 2.3196,
+    "same_choice": false,
+    "robust": false
+  }
+]

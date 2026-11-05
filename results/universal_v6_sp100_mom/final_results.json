@@ -1,0 +1,48 @@
+{
+  "method": "universal_v6_sp100_mom",
+  "universe": "SP100 + long-momentum features",
+  "best_val_sharpe": 2.9959007935455912,
+  "best_step": 975000,
+  "periods": {
+    "train": {
+      "cumulative_return": 967.54,
+      "annualized_return": 18.85,
+      "annualized_volatility": 21.72,
+      "sharpe_ratio": 0.868,
+      "max_drawdown": -46.26,
+      "final_value": 10675408.67
+    },
+    "val": {
+      "cumulative_return": 36.59,
+      "annualized_return": 40.52,
+      "annualized_volatility": 13.52,
+      "sharpe_ratio": 2.9959,
+      "max_drawdown": -4.96,
+      "final_value": 1365890.36
+    },
+    "test_bear": {
+      "cumulative_return": -12.53,
+      "annualized_return": -13.64,
+      "annualized_volatility": 24.89,
+      "sharpe_ratio": -0.5482,
+      "max_drawdown": -24.33,
+      "final_value": 874710.99
+    },
+    "test_2023": {
+      "cumulative_return": 20.62,
+      "annualized_return": 22.91,
+      "annualized_volatility": 14.04,
+      "sharpe_ratio": 1.6323,
+      "max_drawdown": -11.24,
+      "final_value": 1206212.07
+    },
+    "test_bull": {
+      "cumulative_return": 16.64,
+      "annualized_return": 18.37,
+      "annualized_volatility": 11.66,
+      "sharpe_ratio": 1.5761,
+      "max_drawdown": -7.42,
+      "final_value": 1166418.54
+    }
+  }
+}

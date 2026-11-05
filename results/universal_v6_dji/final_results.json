@@ -1,0 +1,94 @@
+{
+  "method": "universal_v6_dji",
+  "universe": "DJI 30",
+  "v6_settings": {
+    "cash_floors": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0
+    },
+    "risk_penalties": {
+      "0": 0.1,
+      "1": 0.5,
+      "2": 0.3
+    },
+    "include_regime_probs": true,
+    "include_vol_features": true,
+    "net_arch": {
+      "pi": [
+        128,
+        64
+      ],
+      "vf": [
+        128,
+        64
+      ]
+    },
+    "feature_columns": [
+      "close",
+      "open",
+      "high",
+      "low",
+      "volume",
+      "rsi",
+      "macd",
+      "macd_signal",
+      "macd_diff",
+      "bb_upper",
+      "bb_lower",
+      "bb_width",
+      "atr",
+      "sma_20",
+      "sma_50",
+      "adx",
+      "cci",
+      "daily_return",
+      "volatility_20d",
+      "mom_60d_norm"
+    ]
+  },
+  "best_val_sharpe": 2.6279870645199637,
+  "best_step": 475000,
+  "periods": {
+    "train": {
+      "cumulative_return": 1015.6,
+      "annualized_return": 19.23,
+      "annualized_volatility": 20.77,
+      "sharpe_ratio": 0.9261,
+      "max_drawdown": -41.06,
+      "final_value": 11155979.42
+    },
+    "val": {
+      "cumulative_return": 31.42,
+      "annualized_return": 34.73,
+      "annualized_volatility": 13.21,
+      "sharpe_ratio": 2.628,
+      "max_drawdown": -5.17,
+      "final_value": 1314203.22
+    },
+    "test_bear": {
+      "cumulative_return": -10.79,
+      "annualized_return": -11.76,
+      "annualized_volatility": 24.57,
+      "sharpe_ratio": -0.4786,
+      "max_drawdown": -24.88,
+      "final_value": 892095.31
+    },
+    "test_2023": {
+      "cumulative_return": 22.74,
+      "annualized_return": 25.29,
+      "annualized_volatility": 12.68,
+      "sharpe_ratio": 1.9936,
+      "max_drawdown": -10.15,
+      "final_value": 1227366.8
+    },
+    "test_bull": {
+      "cumulative_return": 28.44,
+      "annualized_return": 31.55,
+      "annualized_volatility": 12.32,
+      "sharpe_ratio": 2.5618,
+      "max_drawdown": -6.41,
+      "final_value": 1284403.46
+    }
+  }
+}

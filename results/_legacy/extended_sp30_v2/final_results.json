@@ -1,0 +1,57 @@
+{
+  "method": "FULL_extended_sp30_v2",
+  "universe": "S&P-30 non-DJI mega-caps",
+  "config": "identical PPO hyperparameters and architecture to DJI 30 FULL; env-level cash_floors + risk_penalties calibrated for SP30 universe",
+  "cash_floors": {
+    "0": 0.0,
+    "1": 0.3,
+    "2": 0.05
+  },
+  "risk_penalties": {
+    "0": 0.05,
+    "1": 0.5,
+    "2": 0.2
+  },
+  "best_val_sharpe": 3.463092082166826,
+  "best_step": 225000,
+  "agent_train": {
+    "cumulative_return": 521.82,
+    "annualized_return": 14.26,
+    "annualized_volatility": 17.78,
+    "sharpe_ratio": 0.802,
+    "max_drawdown": -42.17,
+    "final_value": 6218162.14
+  },
+  "agent_val": {
+    "cumulative_return": 34.76,
+    "annualized_return": 38.47,
+    "annualized_volatility": 11.11,
+    "sharpe_ratio": 3.4631,
+    "max_drawdown": -4.03,
+    "final_value": 1347606.05
+  },
+  "agent_test_bear": {
+    "cumulative_return": -12.3,
+    "annualized_return": -13.39,
+    "annualized_volatility": 18.95,
+    "sharpe_ratio": -0.7067,
+    "max_drawdown": -20.95,
+    "final_value": 877008.05
+  },
+  "agent_test_2023": {
+    "cumulative_return": 14.43,
+    "annualized_return": 15.98,
+    "annualized_volatility": 14.1,
+    "sharpe_ratio": 1.1338,
+    "max_drawdown": -13.47,
+    "final_value": 1144251.16
+  },
+  "agent_test_bull": {
+    "cumulative_return": 12.54,
+    "annualized_return": 13.81,
+    "annualized_volatility": 11.61,
+    "sharpe_ratio": 1.1898,
+    "max_drawdown": -7.31,
+    "final_value": 1125359.15
+  }
+}

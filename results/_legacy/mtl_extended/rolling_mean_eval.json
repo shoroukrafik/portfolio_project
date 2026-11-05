@@ -1,0 +1,89 @@
+{
+  "Saved (single-peak spike)": {
+    "step": 950000,
+    "metrics": {
+      "val": {
+        "cumulative_return": 48.51,
+        "annualized_return": 53.95,
+        "annualized_volatility": 15.56,
+        "sharpe_ratio": 3.4677,
+        "max_drawdown": -6.49,
+        "final_value": 1485091.76
+      },
+      "test_bear": {
+        "cumulative_return": -13.14,
+        "annualized_return": -14.3,
+        "annualized_volatility": 14.76,
+        "sharpe_ratio": -0.9689,
+        "max_drawdown": -19.11,
+        "final_value": 868585.57
+      },
+      "test_bull": {
+        "cumulative_return": 12.41,
+        "annualized_return": 13.68,
+        "annualized_volatility": 19.02,
+        "sharpe_ratio": 0.7193,
+        "max_drawdown": -10.38,
+        "final_value": 1124132.78
+      }
+    }
+  },
+  "Rolling-mean peak": {
+    "step": 975000,
+    "metrics": {
+      "val": {
+        "cumulative_return": 47.07,
+        "annualized_return": 52.32,
+        "annualized_volatility": 15.89,
+        "sharpe_ratio": 3.2931,
+        "max_drawdown": -6.83,
+        "final_value": 1470696.56
+      },
+      "test_bear": {
+        "cumulative_return": -12.2,
+        "annualized_return": -13.29,
+        "annualized_volatility": 14.96,
+        "sharpe_ratio": -0.8882,
+        "max_drawdown": -19.03,
+        "final_value": 877986.32
+      },
+      "test_bull": {
+        "cumulative_return": 20.89,
+        "annualized_return": 23.1,
+        "annualized_volatility": 19.76,
+        "sharpe_ratio": 1.1688,
+        "max_drawdown": -8.43,
+        "final_value": 1208868.03
+      }
+    }
+  },
+  "Early-plateau peak (\u2264500k)": {
+    "step": 400000,
+    "metrics": {
+      "val": {
+        "cumulative_return": 22.66,
+        "annualized_return": 24.96,
+        "annualized_volatility": 10.98,
+        "sharpe_ratio": 2.2721,
+        "max_drawdown": -4.38,
+        "final_value": 1226570.35
+      },
+      "test_bear": {
+        "cumulative_return": -7.01,
+        "annualized_return": -7.66,
+        "annualized_volatility": 12.55,
+        "sharpe_ratio": -0.61,
+        "max_drawdown": -14.15,
+        "final_value": 929891.9
+      },
+      "test_bull": {
+        "cumulative_return": 11.53,
+        "annualized_return": 12.7,
+        "annualized_volatility": 11.03,
+        "sharpe_ratio": 1.1507,
+        "max_drawdown": -6.38,
+        "final_value": 1115270.0
+      }
+    }
+  }
+}

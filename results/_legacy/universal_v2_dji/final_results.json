@@ -1,0 +1,80 @@
+{
+  "method": "universal_v2_dji",
+  "universe": "DJI 30",
+  "universal_v2_settings": {
+    "cash_floors": {
+      "0": 0.0,
+      "1": 0.5,
+      "2": 0.0
+    },
+    "risk_lambda_fixed": 0.1,
+    "include_regime_probs": true,
+    "include_vol_features": true,
+    "feature_columns": [
+      "close",
+      "open",
+      "high",
+      "low",
+      "volume",
+      "rsi",
+      "macd",
+      "macd_signal",
+      "macd_diff",
+      "bb_upper",
+      "bb_lower",
+      "bb_width",
+      "atr",
+      "sma_20",
+      "sma_50",
+      "adx",
+      "cci",
+      "daily_return",
+      "volatility_20d",
+      "mom_60d_norm"
+    ]
+  },
+  "best_val_sharpe": 2.415893228884825,
+  "best_step": 825000,
+  "periods": {
+    "train": {
+      "cumulative_return": 1398.63,
+      "annualized_return": 21.83,
+      "annualized_volatility": 16.1,
+      "sharpe_ratio": 1.3562,
+      "max_drawdown": -28.69,
+      "final_value": 14986250.08
+    },
+    "val": {
+      "cumulative_return": 27.91,
+      "annualized_return": 30.81,
+      "annualized_volatility": 12.75,
+      "sharpe_ratio": 2.4159,
+      "max_drawdown": -4.99,
+      "final_value": 1279149.94
+    },
+    "test_bear": {
+      "cumulative_return": -7.93,
+      "annualized_return": -8.65,
+      "annualized_volatility": 13.52,
+      "sharpe_ratio": -0.6399,
+      "max_drawdown": -15.92,
+      "final_value": 920724.28
+    },
+    "test_2023": {
+      "cumulative_return": 25.47,
+      "annualized_return": 28.36,
+      "annualized_volatility": 12.89,
+      "sharpe_ratio": 2.1998,
+      "max_drawdown": -8.78,
+      "final_value": 1254682.68
+    },
+    "test_bull": {
+      "cumulative_return": 24.2,
+      "annualized_return": 26.8,
+      "annualized_volatility": 11.72,
+      "sharpe_ratio": 2.2862,
+      "max_drawdown": -5.72,
+      "final_value": 1241955.22
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "method": "universal_v6_dji_2015",
+  "universe": "DJI 30 + 2015 cutoff (NO long-mom)",
+  "experimental_changes": {
+    "train_window": "2015-2020 (6yr vs production 14yr)",
+    "features": "V6 baseline (no mom_120d/mom_252d) \u2014 control",
+    "total_steps": 1000000
+  },
+  "best_val_sharpe": 2.3215809378415653,
+  "best_step": 250000,
+  "periods": {
+    "train": {
+      "cumulative_return": 382.87,
+      "annualized_return": 30.51,
+      "annualized_volatility": 20.28,
+      "sharpe_ratio": 1.5045,
+      "max_drawdown": -31.26,
+      "final_value": 4828748.39
+    },
+    "val": {
+      "cumulative_return": 28.95,
+      "annualized_return": 31.97,
+      "annualized_volatility": 13.77,
+      "sharpe_ratio": 2.3216,
+      "max_drawdown": -5.51,
+      "final_value": 1289536.27
+    },
+    "test_bear": {
+      "cumulative_return": -12.64,
+      "annualized_return": -13.77,
+      "annualized_volatility": 25.71,
+      "sharpe_ratio": -0.5355,
+      "max_drawdown": -25.72,
+      "final_value": 873560.04
+    },
+    "test_2023": {
+      "cumulative_return": 24.92,
+      "annualized_return": 27.74,
+      "annualized_volatility": 13.49,
+      "sharpe_ratio": 2.0561,
+      "max_drawdown": -9.71,
+      "final_value": 1249161.38
+    },
+    "test_bull": {
+      "cumulative_return": 29.04,
+      "annualized_return": 32.23,
+      "annualized_volatility": 13.53,
+      "sharpe_ratio": 2.3824,
+      "max_drawdown": -7.52,
+      "final_value": 1290426.97
+    }
+  }
+}

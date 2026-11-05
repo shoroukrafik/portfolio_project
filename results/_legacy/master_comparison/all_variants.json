@@ -1,0 +1,385 @@
+{
+  "dji": [
+    {
+      "name": "DJI FULL",
+      "rets": {
+        "val": 27.2,
+        "test_bear": -7.36,
+        "test_2023": 27.16,
+        "test_bull": 24.35
+      },
+      "shps": {
+        "val": 2.3928,
+        "test_bear": -0.6104,
+        "test_2023": 2.2862,
+        "test_bull": 2.1159
+      },
+      "wins": 7,
+      "total": 7
+    },
+    {
+      "name": "DJI VANILLA",
+      "rets": {
+        "val": 22.06,
+        "test_bear": -9.78,
+        "test_2023": 21.57,
+        "test_bull": 20.21
+      },
+      "shps": {
+        "val": 2.1068,
+        "test_bear": -0.4712,
+        "test_2023": 2.093,
+        "test_bull": 1.9593
+      },
+      "wins": 4,
+      "total": 7
+    },
+    {
+      "name": "DJI no_dsr",
+      "rets": {
+        "val": 19.77,
+        "test_bear": -5.48,
+        "test_2023": 16.39,
+        "test_bull": 12.09
+      },
+      "shps": {
+        "val": 2.1474,
+        "test_bear": -0.5072,
+        "test_2023": 1.7367,
+        "test_bull": 1.3745
+      },
+      "wins": 3,
+      "total": 7
+    },
+    {
+      "name": "DJI no_attention",
+      "rets": {
+        "val": 19.14,
+        "test_bear": -4.5,
+        "test_2023": 17.29,
+        "test_bull": 15.21
+      },
+      "shps": {
+        "val": 2.0692,
+        "test_bear": -0.4242,
+        "test_2023": 1.8345,
+        "test_bull": 1.7461
+      },
+      "wins": 4,
+      "total": 7
+    },
+    {
+      "name": "DJI v2",
+      "rets": {
+        "val": 27.91,
+        "test_bear": -7.93,
+        "test_2023": 25.47,
+        "test_bull": 24.2
+      },
+      "shps": {
+        "val": 2.4159,
+        "test_bear": -0.6399,
+        "test_2023": 2.1998,
+        "test_bull": 2.2862
+      },
+      "wins": 7,
+      "total": 7
+    },
+    {
+      "name": "DJI v3",
+      "rets": {
+        "val": 28.01,
+        "test_bear": -9.01,
+        "test_2023": 16.46,
+        "test_bull": 23.97
+      },
+      "shps": {
+        "val": 2.7168,
+        "test_bear": -0.7716,
+        "test_2023": 1.5725,
+        "test_bull": 2.5343
+      },
+      "wins": 7,
+      "total": 7
+    },
+    {
+      "name": "DJI v4",
+      "rets": {
+        "val": 19.36,
+        "test_bear": -9.45,
+        "test_2023": -6.08,
+        "test_bull": 0.75
+      },
+      "shps": {
+        "val": 2.2147,
+        "test_bear": -0.9579,
+        "test_2023": -0.728,
+        "test_bull": 0.2402
+      },
+      "wins": 1,
+      "total": 7
+    },
+    {
+      "name": "DJI v5",
+      "rets": {
+        "val": 28.58,
+        "test_bear": -8.65,
+        "test_2023": 15.85,
+        "test_bull": 17.75
+      },
+      "shps": {
+        "val": 2.6032,
+        "test_bear": -0.4316,
+        "test_2023": 1.509,
+        "test_bull": 1.7112
+      },
+      "wins": 6,
+      "total": 7
+    }
+  ],
+  "sp100": [
+    {
+      "name": "SP100 v1 (FULL)",
+      "rets": {
+        "val": 23.09,
+        "test_bear": -6.7,
+        "test_2023": 12.17,
+        "test_bull": 10.41
+      },
+      "shps": {
+        "val": 2.7385,
+        "test_bear": -0.5817,
+        "test_2023": 1.1502,
+        "test_bull": 1.1426
+      },
+      "wins": 3,
+      "total": 12
+    },
+    {
+      "name": "SP100 VANILLA",
+      "rets": {
+        "val": 29.39,
+        "test_bear": -10.33,
+        "test_2023": 10.98,
+        "test_bull": 15.8
+      },
+      "shps": {
+        "val": 2.7329,
+        "test_bear": -0.4992,
+        "test_2023": 0.985,
+        "test_bull": 1.6486
+      },
+      "wins": 4,
+      "total": 12
+    },
+    {
+      "name": "SP100 no_dsr",
+      "rets": {
+        "val": 22.73,
+        "test_bear": -5.26,
+        "test_2023": 13.15,
+        "test_bull": 11.22
+      },
+      "shps": {
+        "val": 2.6486,
+        "test_bear": -0.479,
+        "test_2023": 1.2825,
+        "test_bull": 1.2788
+      },
+      "wins": 3,
+      "total": 12
+    },
+    {
+      "name": "SP100 no_attention",
+      "rets": {
+        "val": 23.68,
+        "test_bear": -8.4,
+        "test_2023": 11.91,
+        "test_bull": 12.91
+      },
+      "shps": {
+        "val": 2.7484,
+        "test_bear": -0.7153,
+        "test_2023": 1.1174,
+        "test_bull": 1.5049
+      },
+      "wins": 3,
+      "total": 12
+    },
+    {
+      "name": "SP100 no_floor",
+      "rets": {
+        "val": 30.3,
+        "test_bear": -7.85,
+        "test_2023": 13.1,
+        "test_bull": 16.52
+      },
+      "shps": {
+        "val": 2.7678,
+        "test_bear": -0.374,
+        "test_2023": 1.1593,
+        "test_bull": 1.7231
+      },
+      "wins": 5,
+      "total": 12
+    },
+    {
+      "name": "SP100 no_lam_0.1",
+      "rets": {
+        "val": 23.9,
+        "test_bear": -6.42,
+        "test_2023": 13.49,
+        "test_bull": 10.38
+      },
+      "shps": {
+        "val": 2.7748,
+        "test_bear": -0.5598,
+        "test_2023": 1.2828,
+        "test_bull": 1.1392
+      },
+      "wins": 3,
+      "total": 12
+    },
+    {
+      "name": "SP100 no_lam_0.3",
+      "rets": {
+        "val": 21.79,
+        "test_bear": -5.26,
+        "test_2023": 12.59,
+        "test_bull": 11.95
+      },
+      "shps": {
+        "val": 2.5744,
+        "test_bear": -0.4751,
+        "test_2023": 1.2303,
+        "test_bull": 1.3695
+      },
+      "wins": 3,
+      "total": 12
+    },
+    {
+      "name": "SP100 no_lam_0.5",
+      "rets": {
+        "val": 22.28,
+        "test_bear": -7.04,
+        "test_2023": 14.07,
+        "test_bull": 10.11
+      },
+      "shps": {
+        "val": 2.6204,
+        "test_bear": -0.6181,
+        "test_2023": 1.3626,
+        "test_bull": 1.1322
+      },
+      "wins": 3,
+      "total": 12
+    },
+    {
+      "name": "SP100 v2",
+      "rets": {
+        "val": 22.96,
+        "test_bear": -7.03,
+        "test_2023": 13.31,
+        "test_bull": 13.38
+      },
+      "shps": {
+        "val": 2.7128,
+        "test_bear": -0.6044,
+        "test_2023": 1.2245,
+        "test_bull": 1.4845
+      },
+      "wins": 3,
+      "total": 12
+    },
+    {
+      "name": "SP100 v3",
+      "rets": {
+        "val": 22.72,
+        "test_bear": -5.17,
+        "test_2023": 12.45,
+        "test_bull": 13.05
+      },
+      "shps": {
+        "val": 2.6388,
+        "test_bear": -0.4659,
+        "test_2023": 1.1485,
+        "test_bull": 1.4624
+      },
+      "wins": 3,
+      "total": 12
+    },
+    {
+      "name": "SP100 v5 (150k)",
+      "rets": {
+        "val": 29.34,
+        "test_bear": -8.53,
+        "test_2023": 11.92,
+        "test_bull": 16.55
+      },
+      "shps": {
+        "val": 2.7505,
+        "test_bear": -0.4124,
+        "test_2023": 1.0784,
+        "test_bull": 1.7573
+      },
+      "wins": 5,
+      "total": 12
+    },
+    {
+      "name": "SP100 v5 (875k aggressive)",
+      "rets": {
+        "val": 27.37,
+        "test_bear": -11.82,
+        "test_2023": 12.98,
+        "test_bull": 21.95
+      },
+      "shps": {
+        "val": 2.6664,
+        "test_bear": -0.5397,
+        "test_2023": 1.1496,
+        "test_bull": 2.1381
+      },
+      "wins": 3,
+      "total": 12
+    }
+  ],
+  "dji_benchmarks": {
+    "val": {
+      "DJI BH": 20.23,
+      "EW DJI": 25.09
+    },
+    "test_bear": {
+      "DJI BH": -9.4,
+      "EW DJI": -10.25
+    },
+    "test_2023": {
+      "DJI BH": 13.74
+    },
+    "test_bull": {
+      "DJI BH": 12.88,
+      "EW DJI": 22.04
+    }
+  },
+  "sp100_benchmarks": {
+    "val": {
+      "SP500 BH": 28.79,
+      "OEX BH": 29.33,
+      "EW SP100": 33.11
+    },
+    "test_bear": {
+      "SP500 BH": -19.95,
+      "OEX BH": -22.99,
+      "EW SP100": -9.48
+    },
+    "test_2023": {
+      "SP500 BH": 24.73,
+      "OEX BH": 31.39,
+      "EW SP100": 21.17
+    },
+    "test_bull": {
+      "SP500 BH": 24.54,
+      "OEX BH": 30.9,
+      "EW SP100": 18.16
+    }
+  }
+}

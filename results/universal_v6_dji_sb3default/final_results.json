@@ -1,0 +1,53 @@
+{
+  "method": "universal_v6_dji_sb3default",
+  "universe": "DJI 30 (LR experiment E: SB3 DEFAULT matched pair)",
+  "experimental_changes": {
+    "learning_rate": 0.0003,
+    "n_steps": 2048,
+    "rationale": "Full SB3 default (lr=3e-4 + n_steps=2048) \u2014 matched pair, the cleanest literature-canonical alternative to test"
+  },
+  "best_val_sharpe": 2.1892302515764213,
+  "best_step": 50000,
+  "periods": {
+    "train": {
+      "cumulative_return": 675.22,
+      "annualized_return": 16.11,
+      "annualized_volatility": 20.32,
+      "sharpe_ratio": 0.793,
+      "max_drawdown": -42.14,
+      "final_value": 7752233.3
+    },
+    "val": {
+      "cumulative_return": 23.29,
+      "annualized_return": 25.65,
+      "annualized_volatility": 11.72,
+      "sharpe_ratio": 2.1892,
+      "max_drawdown": -5.02,
+      "final_value": 1232857.42
+    },
+    "test_bear": {
+      "cumulative_return": -10.12,
+      "annualized_return": -11.03,
+      "annualized_volatility": 22.68,
+      "sharpe_ratio": -0.4863,
+      "max_drawdown": -22.46,
+      "final_value": 898837.91
+    },
+    "test_2023": {
+      "cumulative_return": 17.53,
+      "annualized_return": 19.45,
+      "annualized_volatility": 11.34,
+      "sharpe_ratio": 1.7157,
+      "max_drawdown": -8.97,
+      "final_value": 1175271.26
+    },
+    "test_bull": {
+      "cumulative_return": 16.79,
+      "annualized_return": 18.53,
+      "annualized_volatility": 11.05,
+      "sharpe_ratio": 1.6773,
+      "max_drawdown": -6.33,
+      "final_value": 1167867.16
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "val": {
+    "DJI": {
+      "cumulative_return": 18.27,
+      "sharpe_ratio": 1.6501,
+      "max_drawdown": -6.62,
+      "annualized_volatility": 12.18
+    },
+    "EW": {
+      "cumulative_return": 22.94,
+      "sharpe_ratio": 2.1582,
+      "max_drawdown": -5.42,
+      "annualized_volatility": 11.71
+    }
+  },
+  "test_bear": {
+    "DJI": {
+      "cumulative_return": -6.97,
+      "sharpe_ratio": -0.3741,
+      "max_drawdown": -19.69,
+      "annualized_volatility": 20.33
+    },
+    "EW": {
+      "cumulative_return": -9.01,
+      "sharpe_ratio": -0.4424,
+      "max_drawdown": -21.52,
+      "annualized_volatility": 22.21
+    }
+  },
+  "test_2023": {
+    "DJI": {
+      "cumulative_return": 10.68,
+      "sharpe_ratio": 1.0593,
+      "max_drawdown": -9.02,
+      "annualized_volatility": 11.15
+    },
+    "EW": {
+      "cumulative_return": 18.05,
+      "sharpe_ratio": 1.7475,
+      "max_drawdown": -8.29,
+      "annualized_volatility": 11.47
+    }
+  },
+  "test_bull": {
+    "DJI": {
+      "cumulative_return": 10.52,
+      "sharpe_ratio": 0.9964,
+      "max_drawdown": -6.06,
+      "annualized_volatility": 11.63
+    },
+    "EW": {
+      "cumulative_return": 14.99,
+      "sharpe_ratio": 1.4782,
+      "max_drawdown": -6.17,
+      "annualized_volatility": 11.18
+    }
+  }
+}

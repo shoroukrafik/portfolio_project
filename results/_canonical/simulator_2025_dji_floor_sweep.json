@@ -1,0 +1,40 @@
+{
+  "floors": {
+    "0.0": {
+      "cumulative_return": 22.8085719829213,
+      "sharpe_ratio": 1.244761892176746,
+      "max_drawdown": -20.388587187896665,
+      "n_days": 228
+    },
+    "0.3": {
+      "cumulative_return": 19.871979250008188,
+      "sharpe_ratio": 1.2527413680053971,
+      "max_drawdown": -18.542577968124515,
+      "n_days": 228
+    },
+    "0.5": {
+      "cumulative_return": 17.70227213209441,
+      "sharpe_ratio": 1.2268629909127957,
+      "max_drawdown": -17.187308637633915,
+      "n_days": 228
+    },
+    "0.7": {
+      "cumulative_return": 15.481179773032071,
+      "sharpe_ratio": 1.1564724963929853,
+      "max_drawdown": -15.822303873455414,
+      "n_days": 228
+    }
+  },
+  "BH": {
+    "cumulative_return": 14.094053299259212,
+    "sharpe_ratio": 0.8551692604844792,
+    "max_drawdown": -16.123430948687208,
+    "n_days": 249
+  },
+  "EW": {
+    "cumulative_return": 20.445729183544614,
+    "sharpe_ratio": 1.2428459632803293,
+    "max_drawdown": -16.046465963988016,
+    "n_days": 249
+  }
+}

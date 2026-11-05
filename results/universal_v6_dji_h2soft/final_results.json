@@ -1,0 +1,56 @@
+{
+  "method": "universal_v6_dji_h2soft",
+  "universe": "DJI 30 \u2014 H2-SOFT (uniform \u03bb, keeps regime obs)",
+  "experimental_changes": {
+    "risk_penalties": {
+      "0": 0.3,
+      "1": 0.3,
+      "2": 0.3
+    },
+    "rationale": "Tests literature-standard fixed-\u03bb choice; isolates \u03bb-conditioning contribution"
+  },
+  "best_val_sharpe": 2.404281669225002,
+  "best_step": 600000,
+  "periods": {
+    "train": {
+      "cumulative_return": 2018.58,
+      "annualized_return": 24.94,
+      "annualized_volatility": 22.23,
+      "sharpe_ratio": 1.122,
+      "max_drawdown": -37.81,
+      "final_value": 21185759.31
+    },
+    "val": {
+      "cumulative_return": 32.59,
+      "annualized_return": 36.04,
+      "annualized_volatility": 14.99,
+      "sharpe_ratio": 2.4043,
+      "max_drawdown": -6.52,
+      "final_value": 1325914.55
+    },
+    "test_bear": {
+      "cumulative_return": -14.16,
+      "annualized_return": -15.4,
+      "annualized_volatility": 26.29,
+      "sharpe_ratio": -0.5858,
+      "max_drawdown": -27.73,
+      "final_value": 858436.01
+    },
+    "test_2023": {
+      "cumulative_return": 22.36,
+      "annualized_return": 24.87,
+      "annualized_volatility": 12.67,
+      "sharpe_ratio": 1.9633,
+      "max_drawdown": -10.37,
+      "final_value": 1223610.74
+    },
+    "test_bull": {
+      "cumulative_return": 25.11,
+      "annualized_return": 27.82,
+      "annualized_volatility": 12.17,
+      "sharpe_ratio": 2.2852,
+      "max_drawdown": -7.05,
+      "final_value": 1251108.27
+    }
+  }
+}

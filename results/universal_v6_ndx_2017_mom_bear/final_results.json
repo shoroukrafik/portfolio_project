@@ -1,0 +1,58 @@
+{
+  "method": "universal_v6_ndx_2017_mom_bear",
+  "universe": "NDX 2017 + LONG-MOM + CVaR bear defense (90 stocks)",
+  "experimental_changes": {
+    "features": "V6 + mom_120d_norm + mom_252d_norm",
+    "cvar": {
+      "use_cvar_penalty": true,
+      "cvar_lambda": 0.5,
+      "cvar_window": 60,
+      "cvar_alpha": 0.05
+    },
+    "total_steps": 500000
+  },
+  "best_val_sharpe": 1.90143415287197,
+  "best_step": 75000,
+  "periods": {
+    "train": {
+      "cumulative_return": 192.36,
+      "annualized_return": 31.55,
+      "annualized_volatility": 22.45,
+      "sharpe_ratio": 1.4053,
+      "max_drawdown": -31.35,
+      "final_value": 2923555.81
+    },
+    "val": {
+      "cumulative_return": 27.12,
+      "annualized_return": 29.92,
+      "annualized_volatility": 15.74,
+      "sharpe_ratio": 1.9014,
+      "max_drawdown": -7.33,
+      "final_value": 1271203.98
+    },
+    "test_bear": {
+      "cumulative_return": -11.55,
+      "annualized_return": -12.58,
+      "annualized_volatility": 29.51,
+      "sharpe_ratio": -0.4265,
+      "max_drawdown": -22.5,
+      "final_value": 884476.55
+    },
+    "test_2023": {
+      "cumulative_return": 25.34,
+      "annualized_return": 28.21,
+      "annualized_volatility": 14.8,
+      "sharpe_ratio": 1.906,
+      "max_drawdown": -10.03,
+      "final_value": 1253369.89
+    },
+    "test_bull": {
+      "cumulative_return": 12.93,
+      "annualized_return": 14.25,
+      "annualized_volatility": 13.89,
+      "sharpe_ratio": 1.0254,
+      "max_drawdown": -8.86,
+      "final_value": 1129260.44
+    }
+  }
+}

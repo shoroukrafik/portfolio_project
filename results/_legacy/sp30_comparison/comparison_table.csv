@@ -1,0 +1,21 @@
+system,period,cumulative_return,sharpe_ratio,max_drawdown
+DJI 30 FULL,val,27.2,2.3928,-5.36
+SP30 v1,val,30.53,3.4475,-3.74
+SP30 v2,val,34.76,3.4631,-4.03
+DJI buy-and-hold,val,20.23,1.6369,-6.62
+S&P 500 buy-and-hold,val,28.79,2.2141,-5.21
+DJI 30 FULL,test_bear,-7.36,-0.6104,-15.01
+SP30 v1,test_bear,-8.94,-0.7095,-16.22
+SP30 v2,test_bear,-12.3,-0.7067,-20.95
+DJI buy-and-hold,test_bear,-9.4,-0.4761,-21.94
+S&P 500 buy-and-hold,test_bear,-19.95,-0.8287,-25.43
+DJI 30 FULL,test_2023,27.16,2.2862,-9.49
+SP30 v1,test_2023,15.24,1.3218,-11.56
+SP30 v2,test_2023,14.43,1.1338,-13.47
+DJI buy-and-hold,test_2023,13.74,1.215,-9.02
+S&P 500 buy-and-hold,test_2023,24.73,1.907,-10.28
+DJI 30 FULL,test_bull,24.35,2.1159,-6.04
+SP30 v1,test_bull,10.52,1.0694,-7.07
+SP30 v2,test_bull,12.54,1.1898,-7.31
+DJI buy-and-hold,test_bull,12.88,1.1356,-6.06
+S&P 500 buy-and-hold,test_bull,24.54,1.9493,-8.49

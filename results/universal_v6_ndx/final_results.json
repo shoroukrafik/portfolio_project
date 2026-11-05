@@ -1,0 +1,94 @@
+{
+  "method": "universal_v6_ndx",
+  "universe": "NASDAQ-100 historical subset",
+  "v6_settings": {
+    "cash_floors": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0
+    },
+    "risk_penalties": {
+      "0": 0.1,
+      "1": 0.5,
+      "2": 0.3
+    },
+    "include_regime_probs": true,
+    "include_vol_features": true,
+    "net_arch": {
+      "pi": [
+        128,
+        64
+      ],
+      "vf": [
+        128,
+        64
+      ]
+    },
+    "feature_columns": [
+      "close",
+      "open",
+      "high",
+      "low",
+      "volume",
+      "rsi",
+      "macd",
+      "macd_signal",
+      "macd_diff",
+      "bb_upper",
+      "bb_lower",
+      "bb_width",
+      "atr",
+      "sma_20",
+      "sma_50",
+      "adx",
+      "cci",
+      "daily_return",
+      "volatility_20d",
+      "mom_60d_norm"
+    ]
+  },
+  "best_val_sharpe": 2.0651149894835608,
+  "best_step": 175000,
+  "periods": {
+    "train": {
+      "cumulative_return": 1281.12,
+      "annualized_return": 21.11,
+      "annualized_volatility": 21.89,
+      "sharpe_ratio": 0.9643,
+      "max_drawdown": -49.2,
+      "final_value": 13811218.74
+    },
+    "val": {
+      "cumulative_return": 27.87,
+      "annualized_return": 30.76,
+      "annualized_volatility": 14.89,
+      "sharpe_ratio": 2.0651,
+      "max_drawdown": -6.57,
+      "final_value": 1278662.88
+    },
+    "test_bear": {
+      "cumulative_return": -8.38,
+      "annualized_return": -9.14,
+      "annualized_volatility": 28.37,
+      "sharpe_ratio": -0.3222,
+      "max_drawdown": -21.84,
+      "final_value": 916213.87
+    },
+    "test_2023": {
+      "cumulative_return": 22.77,
+      "annualized_return": 25.32,
+      "annualized_volatility": 14.48,
+      "sharpe_ratio": 1.7485,
+      "max_drawdown": -10.38,
+      "final_value": 1227691.53
+    },
+    "test_bull": {
+      "cumulative_return": 8.03,
+      "annualized_return": 8.83,
+      "annualized_volatility": 14.06,
+      "sharpe_ratio": 0.6281,
+      "max_drawdown": -9.52,
+      "final_value": 1080327.25
+    }
+  }
+}

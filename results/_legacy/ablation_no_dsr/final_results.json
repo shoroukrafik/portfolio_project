@@ -1,0 +1,79 @@
+{
+  "ablation": "no_dsr",
+  "training_budget": 225000,
+  "eval_protocol": "final_model_at_budget_step",
+  "val_sharpe_history": [
+    [
+      25000,
+      2.179327110493459
+    ],
+    [
+      50000,
+      2.1138214520315373
+    ],
+    [
+      75000,
+      2.134943284858129
+    ],
+    [
+      100000,
+      2.0856832640650516
+    ],
+    [
+      125000,
+      2.1117424439975854
+    ],
+    [
+      150000,
+      2.24535074164716
+    ],
+    [
+      175000,
+      2.2571717234457096
+    ],
+    [
+      200000,
+      2.2697886357374677
+    ],
+    [
+      225000,
+      2.2391423201915237
+    ]
+  ],
+  "agent_train": {
+    "cumulative_return": 179.75,
+    "annualized_return": 24.36,
+    "annualized_volatility": 14.58,
+    "sharpe_ratio": 1.6705,
+    "max_drawdown": -20.68,
+    "calmar_ratio": 1.1783,
+    "final_value": 2797502.92
+  },
+  "agent_val": {
+    "cumulative_return": 21.1,
+    "annualized_return": 23.23,
+    "annualized_volatility": 10.44,
+    "sharpe_ratio": 2.2243,
+    "max_drawdown": -4.45,
+    "calmar_ratio": 5.2178,
+    "final_value": 1211032.53
+  },
+  "agent_test_bear": {
+    "cumulative_return": -11.95,
+    "annualized_return": -13.01,
+    "annualized_volatility": 16.84,
+    "sharpe_ratio": -0.7727,
+    "max_drawdown": -18.3,
+    "calmar_ratio": -0.7114,
+    "final_value": 880505.16
+  },
+  "agent_test_bull": {
+    "cumulative_return": 20.63,
+    "annualized_return": 22.81,
+    "annualized_volatility": 9.93,
+    "sharpe_ratio": 2.2959,
+    "max_drawdown": -5.04,
+    "calmar_ratio": 4.525,
+    "final_value": 1206259.61
+  }
+}

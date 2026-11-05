@@ -1,0 +1,1004 @@
+{
+  "method": "regime_filtered_val",
+  "specialists": {
+    "bull": {
+      "criterion": "sharpe_ratio",
+      "regime_val_days": 156,
+      "selected_step": 325000,
+      "selected_metrics": {
+        "cumulative_return": 21.9715,
+        "sharpe_ratio": 4.5486,
+        "max_drawdown": -3.4801,
+        "annualized_volatility": 9.8673
+      },
+      "all_checkpoints": [
+        {
+          "step": 25000,
+          "cumulative_return": 16.8309,
+          "sharpe_ratio": 3.8339,
+          "max_drawdown": -3.281,
+          "annualized_volatility": 8.7882,
+          "final_value": 1168308.85
+        },
+        {
+          "step": 50000,
+          "cumulative_return": 17.3755,
+          "sharpe_ratio": 3.9535,
+          "max_drawdown": -3.2742,
+          "annualized_volatility": 8.8172,
+          "final_value": 1173755.17
+        },
+        {
+          "step": 75000,
+          "cumulative_return": 18.5456,
+          "sharpe_ratio": 4.1417,
+          "max_drawdown": -3.3924,
+          "annualized_volatility": 9.025,
+          "final_value": 1185455.57
+        },
+        {
+          "step": 100000,
+          "cumulative_return": 18.7977,
+          "sharpe_ratio": 4.2204,
+          "max_drawdown": -3.3168,
+          "annualized_volatility": 8.9861,
+          "final_value": 1187977.09
+        },
+        {
+          "step": 125000,
+          "cumulative_return": 18.9669,
+          "sharpe_ratio": 4.2794,
+          "max_drawdown": -3.3019,
+          "annualized_volatility": 8.9479,
+          "final_value": 1189668.59
+        },
+        {
+          "step": 150000,
+          "cumulative_return": 19.0469,
+          "sharpe_ratio": 4.2393,
+          "max_drawdown": -3.2683,
+          "annualized_volatility": 9.0735,
+          "final_value": 1190469.13
+        },
+        {
+          "step": 175000,
+          "cumulative_return": 19.4033,
+          "sharpe_ratio": 4.26,
+          "max_drawdown": -3.3451,
+          "annualized_volatility": 9.2113,
+          "final_value": 1194032.56
+        },
+        {
+          "step": 200000,
+          "cumulative_return": 20.2732,
+          "sharpe_ratio": 4.3609,
+          "max_drawdown": -3.4247,
+          "annualized_volatility": 9.4337,
+          "final_value": 1202732.31
+        },
+        {
+          "step": 225000,
+          "cumulative_return": 21.8462,
+          "sharpe_ratio": 4.4407,
+          "max_drawdown": -3.5523,
+          "annualized_volatility": 10.0445,
+          "final_value": 1218461.88
+        },
+        {
+          "step": 250000,
+          "cumulative_return": 21.8267,
+          "sharpe_ratio": 4.4407,
+          "max_drawdown": -3.5265,
+          "annualized_volatility": 10.0348,
+          "final_value": 1218266.99
+        },
+        {
+          "step": 275000,
+          "cumulative_return": 21.898,
+          "sharpe_ratio": 4.4944,
+          "max_drawdown": -3.5239,
+          "annualized_volatility": 9.95,
+          "final_value": 1218979.63
+        },
+        {
+          "step": 300000,
+          "cumulative_return": 21.6852,
+          "sharpe_ratio": 4.4617,
+          "max_drawdown": -3.5008,
+          "annualized_volatility": 9.9174,
+          "final_value": 1216852.09
+        },
+        {
+          "step": 325000,
+          "cumulative_return": 21.9715,
+          "sharpe_ratio": 4.5486,
+          "max_drawdown": -3.4801,
+          "annualized_volatility": 9.8673,
+          "final_value": 1219715.32
+        },
+        {
+          "step": 350000,
+          "cumulative_return": 21.332,
+          "sharpe_ratio": 4.3883,
+          "max_drawdown": -3.5591,
+          "annualized_volatility": 9.9053,
+          "final_value": 1213319.85
+        },
+        {
+          "step": 375000,
+          "cumulative_return": 23.1166,
+          "sharpe_ratio": 4.3273,
+          "max_drawdown": -3.7954,
+          "annualized_volatility": 10.9611,
+          "final_value": 1231166.43
+        },
+        {
+          "step": 400000,
+          "cumulative_return": 24.4058,
+          "sharpe_ratio": 4.3528,
+          "max_drawdown": -3.9316,
+          "annualized_volatility": 11.5618,
+          "final_value": 1244057.6
+        },
+        {
+          "step": 425000,
+          "cumulative_return": 28.7893,
+          "sharpe_ratio": 4.4624,
+          "max_drawdown": -4.702,
+          "annualized_volatility": 13.5273,
+          "final_value": 1287893.01
+        },
+        {
+          "step": 450000,
+          "cumulative_return": 27.2947,
+          "sharpe_ratio": 4.0371,
+          "max_drawdown": -5.2509,
+          "annualized_volatility": 14.0962,
+          "final_value": 1272946.69
+        },
+        {
+          "step": 475000,
+          "cumulative_return": 26.5684,
+          "sharpe_ratio": 3.6843,
+          "max_drawdown": -5.7147,
+          "annualized_volatility": 14.9938,
+          "final_value": 1265684.13
+        },
+        {
+          "step": 500000,
+          "cumulative_return": 24.6519,
+          "sharpe_ratio": 3.2033,
+          "max_drawdown": -6.4785,
+          "annualized_volatility": 15.8842,
+          "final_value": 1246519.46
+        },
+        {
+          "step": 525000,
+          "cumulative_return": 26.3596,
+          "sharpe_ratio": 3.1309,
+          "max_drawdown": -7.3644,
+          "annualized_volatility": 17.4916,
+          "final_value": 1263596.32
+        },
+        {
+          "step": 550000,
+          "cumulative_return": 31.045,
+          "sharpe_ratio": 3.1906,
+          "max_drawdown": -8.4372,
+          "annualized_volatility": 20.5754,
+          "final_value": 1310450.31
+        },
+        {
+          "step": 575000,
+          "cumulative_return": 25.9776,
+          "sharpe_ratio": 2.738,
+          "max_drawdown": -8.4475,
+          "annualized_volatility": 19.6829,
+          "final_value": 1259775.79
+        },
+        {
+          "step": 600000,
+          "cumulative_return": 25.3286,
+          "sharpe_ratio": 2.6036,
+          "max_drawdown": -8.9456,
+          "annualized_volatility": 20.1318,
+          "final_value": 1253285.86
+        },
+        {
+          "step": 625000,
+          "cumulative_return": 23.4441,
+          "sharpe_ratio": 2.4764,
+          "max_drawdown": -8.8716,
+          "annualized_volatility": 19.4492,
+          "final_value": 1234440.92
+        },
+        {
+          "step": 650000,
+          "cumulative_return": 23.2224,
+          "sharpe_ratio": 2.3947,
+          "max_drawdown": -9.2505,
+          "annualized_volatility": 19.9062,
+          "final_value": 1232224.19
+        },
+        {
+          "step": 675000,
+          "cumulative_return": 22.4947,
+          "sharpe_ratio": 2.2278,
+          "max_drawdown": -9.5022,
+          "annualized_volatility": 20.6683,
+          "final_value": 1224946.96
+        },
+        {
+          "step": 700000,
+          "cumulative_return": 23.3027,
+          "sharpe_ratio": 2.3565,
+          "max_drawdown": -9.2243,
+          "annualized_volatility": 20.3044,
+          "final_value": 1233027.27
+        },
+        {
+          "step": 725000,
+          "cumulative_return": 22.5924,
+          "sharpe_ratio": 2.3499,
+          "max_drawdown": -9.1789,
+          "annualized_volatility": 19.6867,
+          "final_value": 1225924.27
+        },
+        {
+          "step": 750000,
+          "cumulative_return": 20.6206,
+          "sharpe_ratio": 2.0774,
+          "max_drawdown": -9.7905,
+          "annualized_volatility": 20.1697,
+          "final_value": 1206205.86
+        },
+        {
+          "step": 775000,
+          "cumulative_return": 17.6659,
+          "sharpe_ratio": 1.7056,
+          "max_drawdown": -10.4101,
+          "annualized_volatility": 20.8028,
+          "final_value": 1176659.18
+        },
+        {
+          "step": 800000,
+          "cumulative_return": 16.5396,
+          "sharpe_ratio": 1.6209,
+          "max_drawdown": -10.0833,
+          "annualized_volatility": 20.4034,
+          "final_value": 1165396.09
+        },
+        {
+          "step": 825000,
+          "cumulative_return": 16.2143,
+          "sharpe_ratio": 1.5782,
+          "max_drawdown": -10.1779,
+          "annualized_volatility": 20.5158,
+          "final_value": 1162143.23
+        },
+        {
+          "step": 850000,
+          "cumulative_return": 17.2313,
+          "sharpe_ratio": 1.642,
+          "max_drawdown": -10.6834,
+          "annualized_volatility": 21.0409,
+          "final_value": 1172312.83
+        },
+        {
+          "step": 875000,
+          "cumulative_return": 17.9562,
+          "sharpe_ratio": 1.6557,
+          "max_drawdown": -10.6004,
+          "annualized_volatility": 21.8067,
+          "final_value": 1179561.53
+        },
+        {
+          "step": 900000,
+          "cumulative_return": 19.3788,
+          "sharpe_ratio": 1.7508,
+          "max_drawdown": -10.7322,
+          "annualized_volatility": 22.3825,
+          "final_value": 1193787.5
+        },
+        {
+          "step": 925000,
+          "cumulative_return": 20.2715,
+          "sharpe_ratio": 1.8789,
+          "max_drawdown": -10.7797,
+          "annualized_volatility": 21.8937,
+          "final_value": 1202715.01
+        },
+        {
+          "step": 950000,
+          "cumulative_return": 18.5344,
+          "sharpe_ratio": 1.6986,
+          "max_drawdown": -11.1007,
+          "annualized_volatility": 21.9918,
+          "final_value": 1185344.16
+        },
+        {
+          "step": 975000,
+          "cumulative_return": 19.3788,
+          "sharpe_ratio": 1.7855,
+          "max_drawdown": -10.9695,
+          "annualized_volatility": 21.9472,
+          "final_value": 1193787.56
+        },
+        {
+          "step": 1000000,
+          "cumulative_return": 18.8359,
+          "sharpe_ratio": 1.6997,
+          "max_drawdown": -11.1935,
+          "annualized_volatility": 22.3608,
+          "final_value": 1188359.19
+        }
+      ]
+    },
+    "bear": {
+      "criterion": "cumulative_return",
+      "regime_val_days": 23,
+      "selected_step": 75000,
+      "selected_metrics": {
+        "cumulative_return": -0.0653,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": -0.0653,
+        "annualized_volatility": 0.0
+      },
+      "all_checkpoints": [
+        {
+          "step": 25000,
+          "cumulative_return": -0.0762,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.0762,
+          "annualized_volatility": 0.0,
+          "final_value": 999238.05
+        },
+        {
+          "step": 50000,
+          "cumulative_return": -0.0707,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.0707,
+          "annualized_volatility": 0.0,
+          "final_value": 999292.69
+        },
+        {
+          "step": 75000,
+          "cumulative_return": -0.0653,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.0653,
+          "annualized_volatility": 0.0,
+          "final_value": 999347.32
+        },
+        {
+          "step": 100000,
+          "cumulative_return": -0.0795,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.0795,
+          "annualized_volatility": 0.0,
+          "final_value": 999205.14
+        },
+        {
+          "step": 125000,
+          "cumulative_return": -0.1001,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.1001,
+          "annualized_volatility": 0.0,
+          "final_value": 998998.52
+        },
+        {
+          "step": 150000,
+          "cumulative_return": -0.1085,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.1085,
+          "annualized_volatility": 0.0,
+          "final_value": 998914.68
+        },
+        {
+          "step": 175000,
+          "cumulative_return": -0.1086,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.1086,
+          "annualized_volatility": 0.0,
+          "final_value": 998914.28
+        },
+        {
+          "step": 200000,
+          "cumulative_return": -0.1304,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.1304,
+          "annualized_volatility": 0.0,
+          "final_value": 998696.36
+        },
+        {
+          "step": 225000,
+          "cumulative_return": -0.1254,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.1254,
+          "annualized_volatility": 0.0,
+          "final_value": 998745.61
+        },
+        {
+          "step": 250000,
+          "cumulative_return": -0.1409,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.1409,
+          "annualized_volatility": 0.0,
+          "final_value": 998591.18
+        },
+        {
+          "step": 275000,
+          "cumulative_return": -0.1801,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.1801,
+          "annualized_volatility": 0.0,
+          "final_value": 998199.01
+        },
+        {
+          "step": 300000,
+          "cumulative_return": -0.1853,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.1853,
+          "annualized_volatility": 0.0,
+          "final_value": 998146.84
+        },
+        {
+          "step": 325000,
+          "cumulative_return": -0.215,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.215,
+          "annualized_volatility": 0.0,
+          "final_value": 997849.53
+        },
+        {
+          "step": 350000,
+          "cumulative_return": -0.2149,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.2149,
+          "annualized_volatility": 0.0,
+          "final_value": 997850.65
+        },
+        {
+          "step": 375000,
+          "cumulative_return": -0.1861,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.1861,
+          "annualized_volatility": 0.0,
+          "final_value": 998138.57
+        },
+        {
+          "step": 400000,
+          "cumulative_return": -0.223,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.223,
+          "annualized_volatility": 0.0,
+          "final_value": 997769.78
+        },
+        {
+          "step": 425000,
+          "cumulative_return": -0.294,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.294,
+          "annualized_volatility": 0.0,
+          "final_value": 997059.66
+        },
+        {
+          "step": 450000,
+          "cumulative_return": -0.4046,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.4046,
+          "annualized_volatility": 0.0,
+          "final_value": 995953.5
+        },
+        {
+          "step": 475000,
+          "cumulative_return": -0.506,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.506,
+          "annualized_volatility": 0.0,
+          "final_value": 994940.15
+        },
+        {
+          "step": 500000,
+          "cumulative_return": -0.5547,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.5547,
+          "annualized_volatility": 0.0,
+          "final_value": 994453.23
+        },
+        {
+          "step": 525000,
+          "cumulative_return": -0.4279,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.4279,
+          "annualized_volatility": 0.0,
+          "final_value": 995721.19
+        },
+        {
+          "step": 550000,
+          "cumulative_return": -0.7033,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.7033,
+          "annualized_volatility": 0.0,
+          "final_value": 992967.5
+        },
+        {
+          "step": 575000,
+          "cumulative_return": -0.8353,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.8353,
+          "annualized_volatility": 0.0,
+          "final_value": 991646.99
+        },
+        {
+          "step": 600000,
+          "cumulative_return": -0.8248,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.8248,
+          "annualized_volatility": 0.0,
+          "final_value": 991751.7
+        },
+        {
+          "step": 625000,
+          "cumulative_return": -0.5836,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.5836,
+          "annualized_volatility": 0.0,
+          "final_value": 994164.18
+        },
+        {
+          "step": 650000,
+          "cumulative_return": -0.6991,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.6991,
+          "annualized_volatility": 0.0,
+          "final_value": 993008.7
+        },
+        {
+          "step": 675000,
+          "cumulative_return": -0.8665,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.8665,
+          "annualized_volatility": 0.0,
+          "final_value": 991334.5
+        },
+        {
+          "step": 700000,
+          "cumulative_return": -0.8331,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.8331,
+          "annualized_volatility": 0.0,
+          "final_value": 991668.62
+        },
+        {
+          "step": 725000,
+          "cumulative_return": -0.974,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.974,
+          "annualized_volatility": 0.0,
+          "final_value": 990259.86
+        },
+        {
+          "step": 750000,
+          "cumulative_return": -0.9099,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.9099,
+          "annualized_volatility": 0.0,
+          "final_value": 990900.62
+        },
+        {
+          "step": 775000,
+          "cumulative_return": -0.5724,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.5724,
+          "annualized_volatility": 0.0,
+          "final_value": 994275.56
+        },
+        {
+          "step": 800000,
+          "cumulative_return": -0.9612,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.9612,
+          "annualized_volatility": 0.0,
+          "final_value": 990388.13
+        },
+        {
+          "step": 825000,
+          "cumulative_return": -0.9322,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.9322,
+          "annualized_volatility": 0.0,
+          "final_value": 990678.05
+        },
+        {
+          "step": 850000,
+          "cumulative_return": -0.9393,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.9393,
+          "annualized_volatility": 0.0,
+          "final_value": 990606.53
+        },
+        {
+          "step": 875000,
+          "cumulative_return": -0.9899,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.9899,
+          "annualized_volatility": 0.0,
+          "final_value": 990101.4
+        },
+        {
+          "step": 900000,
+          "cumulative_return": -0.9261,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.9261,
+          "annualized_volatility": 0.0,
+          "final_value": 990739.22
+        },
+        {
+          "step": 925000,
+          "cumulative_return": -0.9097,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.9097,
+          "annualized_volatility": 0.0,
+          "final_value": 990902.97
+        },
+        {
+          "step": 950000,
+          "cumulative_return": -0.7603,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.7603,
+          "annualized_volatility": 0.0,
+          "final_value": 992396.67
+        },
+        {
+          "step": 975000,
+          "cumulative_return": -0.6743,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.6743,
+          "annualized_volatility": 0.0,
+          "final_value": 993256.89
+        },
+        {
+          "step": 1000000,
+          "cumulative_return": -0.1489,
+          "sharpe_ratio": 0.0,
+          "max_drawdown": -0.1489,
+          "annualized_volatility": 0.0,
+          "final_value": 998511.42
+        }
+      ]
+    },
+    "sideways": {
+      "criterion": "sharpe_ratio",
+      "regime_val_days": 73,
+      "selected_step": 175000,
+      "selected_metrics": {
+        "cumulative_return": 2.0466,
+        "sharpe_ratio": 0.8393,
+        "max_drawdown": -4.5769,
+        "annualized_volatility": 12.2915
+      },
+      "all_checkpoints": [
+        {
+          "step": 25000,
+          "cumulative_return": 1.6976,
+          "sharpe_ratio": 0.6938,
+          "max_drawdown": -4.3985,
+          "annualized_volatility": 12.2519,
+          "final_value": 1016976.04
+        },
+        {
+          "step": 50000,
+          "cumulative_return": 1.7925,
+          "sharpe_ratio": 0.7449,
+          "max_drawdown": -4.2769,
+          "annualized_volatility": 12.0703,
+          "final_value": 1017924.69
+        },
+        {
+          "step": 75000,
+          "cumulative_return": 1.8182,
+          "sharpe_ratio": 0.7442,
+          "max_drawdown": -4.3064,
+          "annualized_volatility": 12.2613,
+          "final_value": 1018181.68
+        },
+        {
+          "step": 100000,
+          "cumulative_return": 1.7682,
+          "sharpe_ratio": 0.7221,
+          "max_drawdown": -4.3719,
+          "annualized_volatility": 12.2775,
+          "final_value": 1017681.73
+        },
+        {
+          "step": 125000,
+          "cumulative_return": 1.7369,
+          "sharpe_ratio": 0.7107,
+          "max_drawdown": -4.5197,
+          "annualized_volatility": 12.2466,
+          "final_value": 1017369.13
+        },
+        {
+          "step": 150000,
+          "cumulative_return": 1.9732,
+          "sharpe_ratio": 0.8211,
+          "max_drawdown": -4.4784,
+          "annualized_volatility": 12.0968,
+          "final_value": 1019732.1
+        },
+        {
+          "step": 175000,
+          "cumulative_return": 2.0466,
+          "sharpe_ratio": 0.8393,
+          "max_drawdown": -4.5769,
+          "annualized_volatility": 12.2915,
+          "final_value": 1020466.26
+        },
+        {
+          "step": 200000,
+          "cumulative_return": 2.0338,
+          "sharpe_ratio": 0.8372,
+          "max_drawdown": -4.6186,
+          "annualized_volatility": 12.2419,
+          "final_value": 1020337.85
+        },
+        {
+          "step": 225000,
+          "cumulative_return": 2.031,
+          "sharpe_ratio": 0.8343,
+          "max_drawdown": -4.638,
+          "annualized_volatility": 12.2663,
+          "final_value": 1020309.86
+        },
+        {
+          "step": 250000,
+          "cumulative_return": 1.2504,
+          "sharpe_ratio": 0.4847,
+          "max_drawdown": -4.9183,
+          "annualized_volatility": 12.8057,
+          "final_value": 1012503.76
+        },
+        {
+          "step": 275000,
+          "cumulative_return": 1.217,
+          "sharpe_ratio": 0.4728,
+          "max_drawdown": -4.9379,
+          "annualized_volatility": 12.7696,
+          "final_value": 1012170.29
+        },
+        {
+          "step": 300000,
+          "cumulative_return": 0.7196,
+          "sharpe_ratio": 0.2798,
+          "max_drawdown": -4.7992,
+          "annualized_volatility": 12.6377,
+          "final_value": 1007196.0
+        },
+        {
+          "step": 325000,
+          "cumulative_return": 0.28,
+          "sharpe_ratio": 0.1068,
+          "max_drawdown": -5.0031,
+          "annualized_volatility": 12.7756,
+          "final_value": 1002800.14
+        },
+        {
+          "step": 350000,
+          "cumulative_return": -0.8962,
+          "sharpe_ratio": -0.3177,
+          "max_drawdown": -5.2966,
+          "annualized_volatility": 13.4359,
+          "final_value": 991038.29
+        },
+        {
+          "step": 375000,
+          "cumulative_return": -1.7544,
+          "sharpe_ratio": -0.5785,
+          "max_drawdown": -5.6013,
+          "annualized_volatility": 14.2099,
+          "final_value": 982456.05
+        },
+        {
+          "step": 400000,
+          "cumulative_return": -2.2706,
+          "sharpe_ratio": -0.7062,
+          "max_drawdown": -5.7407,
+          "annualized_volatility": 14.9156,
+          "final_value": 977293.52
+        },
+        {
+          "step": 425000,
+          "cumulative_return": -2.1577,
+          "sharpe_ratio": -0.652,
+          "max_drawdown": -5.7207,
+          "annualized_volatility": 15.3847,
+          "final_value": 978423.23
+        },
+        {
+          "step": 450000,
+          "cumulative_return": -2.3045,
+          "sharpe_ratio": -0.7054,
+          "max_drawdown": -5.7669,
+          "annualized_volatility": 15.1447,
+          "final_value": 976954.91
+        },
+        {
+          "step": 475000,
+          "cumulative_return": -3.3807,
+          "sharpe_ratio": -1.0158,
+          "max_drawdown": -6.7399,
+          "annualized_volatility": 15.1128,
+          "final_value": 966192.78
+        },
+        {
+          "step": 500000,
+          "cumulative_return": -3.2376,
+          "sharpe_ratio": -0.9623,
+          "max_drawdown": -6.6615,
+          "annualized_volatility": 15.3208,
+          "final_value": 967623.65
+        },
+        {
+          "step": 525000,
+          "cumulative_return": -3.2383,
+          "sharpe_ratio": -1.0121,
+          "max_drawdown": -6.5529,
+          "annualized_volatility": 14.5685,
+          "final_value": 967617.12
+        },
+        {
+          "step": 550000,
+          "cumulative_return": -1.1483,
+          "sharpe_ratio": -0.4082,
+          "max_drawdown": -5.6941,
+          "annualized_volatility": 13.3354,
+          "final_value": 988517.08
+        },
+        {
+          "step": 575000,
+          "cumulative_return": -0.6637,
+          "sharpe_ratio": -0.246,
+          "max_drawdown": -5.2719,
+          "annualized_volatility": 12.9069,
+          "final_value": 993363.5
+        },
+        {
+          "step": 600000,
+          "cumulative_return": -1.2348,
+          "sharpe_ratio": -0.4703,
+          "max_drawdown": -5.1136,
+          "annualized_volatility": 12.4244,
+          "final_value": 987651.53
+        },
+        {
+          "step": 625000,
+          "cumulative_return": -0.9437,
+          "sharpe_ratio": -0.3516,
+          "max_drawdown": -5.0752,
+          "annualized_volatility": 12.7744,
+          "final_value": 990562.7
+        },
+        {
+          "step": 650000,
+          "cumulative_return": -3.9871,
+          "sharpe_ratio": -1.2586,
+          "max_drawdown": -7.1019,
+          "annualized_volatility": 14.219,
+          "final_value": 960128.81
+        },
+        {
+          "step": 675000,
+          "cumulative_return": -4.0765,
+          "sharpe_ratio": -1.2256,
+          "max_drawdown": -7.2751,
+          "annualized_volatility": 14.9028,
+          "final_value": 959234.84
+        },
+        {
+          "step": 700000,
+          "cumulative_return": -1.1413,
+          "sharpe_ratio": -0.3182,
+          "max_drawdown": -6.747,
+          "annualized_volatility": 17.0025,
+          "final_value": 988586.65
+        },
+        {
+          "step": 725000,
+          "cumulative_return": 0.2005,
+          "sharpe_ratio": 0.052,
+          "max_drawdown": -6.1608,
+          "annualized_volatility": 18.7608,
+          "final_value": 1002004.95
+        },
+        {
+          "step": 750000,
+          "cumulative_return": -4.8581,
+          "sharpe_ratio": -1.2661,
+          "max_drawdown": -7.9429,
+          "annualized_volatility": 16.9355,
+          "final_value": 951419.32
+        },
+        {
+          "step": 775000,
+          "cumulative_return": -4.189,
+          "sharpe_ratio": -1.03,
+          "max_drawdown": -7.9743,
+          "annualized_volatility": 18.1841,
+          "final_value": 958110.5
+        },
+        {
+          "step": 800000,
+          "cumulative_return": -3.1464,
+          "sharpe_ratio": -0.8041,
+          "max_drawdown": -7.4012,
+          "annualized_volatility": 17.8494,
+          "final_value": 968536.48
+        },
+        {
+          "step": 825000,
+          "cumulative_return": -5.8557,
+          "sharpe_ratio": -1.3812,
+          "max_drawdown": -9.6332,
+          "annualized_volatility": 18.3565,
+          "final_value": 941442.93
+        },
+        {
+          "step": 850000,
+          "cumulative_return": -6.6688,
+          "sharpe_ratio": -1.4763,
+          "max_drawdown": -9.3369,
+          "annualized_volatility": 19.2559,
+          "final_value": 933312.13
+        },
+        {
+          "step": 875000,
+          "cumulative_return": -8.6349,
+          "sharpe_ratio": -1.7158,
+          "max_drawdown": -10.6321,
+          "annualized_volatility": 20.6575,
+          "final_value": 913651.28
+        },
+        {
+          "step": 900000,
+          "cumulative_return": -8.3709,
+          "sharpe_ratio": -1.6632,
+          "max_drawdown": -11.1053,
+          "annualized_volatility": 20.7639,
+          "final_value": 916290.99
+        },
+        {
+          "step": 925000,
+          "cumulative_return": -6.3966,
+          "sharpe_ratio": -1.4107,
+          "max_drawdown": -9.8184,
+          "annualized_volatility": 19.4305,
+          "final_value": 936034.09
+        },
+        {
+          "step": 950000,
+          "cumulative_return": -6.2252,
+          "sharpe_ratio": -1.3774,
+          "max_drawdown": -8.7957,
+          "annualized_volatility": 19.4314,
+          "final_value": 937747.96
+        },
+        {
+          "step": 975000,
+          "cumulative_return": -8.1842,
+          "sharpe_ratio": -1.6338,
+          "max_drawdown": -10.8736,
+          "annualized_volatility": 20.7404,
+          "final_value": 918158.41
+        },
+        {
+          "step": 1000000,
+          "cumulative_return": -8.5052,
+          "sharpe_ratio": -1.6289,
+          "max_drawdown": -11.165,
+          "annualized_volatility": 21.4863,
+          "final_value": 914947.81
+        }
+      ]
+    }
+  }
+}

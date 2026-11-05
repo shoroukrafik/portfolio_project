@@ -1,0 +1,33 @@
+system,period,cumulative_return,sharpe_ratio,max_drawdown
+FULL (baseline),val,27.2,2.3928,-5.36
+FULL (baseline),test_bear,-7.36,-0.6104,-15.01
+FULL (baseline),test_2023,27.16,2.2862,-9.49
+FULL (baseline),test_bull,24.35,2.1159,-6.04
+VANILLA,val,22.06,2.1068,-4.7
+VANILLA,test_bear,-9.78,-0.4712,-22.34
+VANILLA,test_2023,21.57,2.093,-7.83
+VANILLA,test_bull,20.21,1.9593,-7.53
+no_floor (eval),val,29.31,2.6737,-4.22
+no_floor (eval),test_bear,-13.69,-0.6302,-23.83
+no_floor (eval),test_2023,29.03,2.2681,-10.02
+no_floor (eval),test_bull,18.15,1.7849,-6.05
+no_dsr,val,19.77,2.1474,-3.89
+no_dsr,test_bear,-5.48,-0.5072,-12.01
+no_dsr,test_2023,16.39,1.7367,-8.2
+no_dsr,test_bull,12.09,1.3745,-5.33
+no_attention,val,19.14,2.0692,-4.52
+no_attention,test_bear,-4.5,-0.4242,-11.71
+no_attention,test_2023,17.29,1.8345,-7.66
+no_attention,test_bull,15.21,1.7461,-5.03
+no_regime_λ=0.1,val,31.69,2.8137,-4.83
+no_regime_λ=0.1,test_bear,-6.23,-0.527,-13.68
+no_regime_λ=0.1,test_2023,16.1,1.4589,-9.88
+no_regime_λ=0.1,test_bull,21.53,2.0113,-5.43
+no_regime_λ=0.3,val,28.22,2.5825,-5.3
+no_regime_λ=0.3,test_bear,-6.86,-0.5765,-14.22
+no_regime_λ=0.3,test_2023,20.0,1.8613,-9.17
+no_regime_λ=0.3,test_bull,19.38,1.9764,-5.11
+no_regime_λ=0.5,val,32.84,2.5404,-5.74
+no_regime_λ=0.5,test_bear,-10.32,-0.7335,-19.39
+no_regime_λ=0.5,test_2023,30.53,2.3502,-10.22
+no_regime_λ=0.5,test_bull,28.94,2.2032,-6.33

@@ -1,0 +1,608 @@
+{
+  "DJI": {
+    "val": {
+      "universe": "DJI",
+      "period": "val",
+      "n_steps": 231,
+      "n_stocks": 30,
+      "regime_day_counts": {
+        "bull": 141,
+        "bear": 17,
+        "sideways": 73
+      },
+      "top_15_stocks_by_attention": [
+        "NVDA",
+        "IBM",
+        "BA",
+        "CVX",
+        "NKE",
+        "CAT",
+        "HD",
+        "AAPL",
+        "MMM",
+        "MSFT",
+        "SHW",
+        "AMGN",
+        "MRK",
+        "INTC",
+        "UNH"
+      ],
+      "top_10_stocks_by_attention": [
+        "NVDA",
+        "IBM",
+        "BA",
+        "CVX",
+        "NKE",
+        "CAT",
+        "HD",
+        "AAPL",
+        "MMM",
+        "MSFT"
+      ],
+      "top_10_stocks_by_regime": {
+        "bull": [
+          "NVDA",
+          "IBM",
+          "BA",
+          "CVX",
+          "CAT",
+          "NKE",
+          "MSFT",
+          "HD",
+          "SHW",
+          "AAPL"
+        ],
+        "bear": [
+          "NVDA",
+          "IBM",
+          "CVX",
+          "DIS",
+          "CAT",
+          "BA",
+          "MRK",
+          "HD",
+          "MA",
+          "VZ"
+        ],
+        "sideways": [
+          "NVDA",
+          "CVX",
+          "BA",
+          "MMM",
+          "NKE",
+          "IBM",
+          "AMGN",
+          "MRK",
+          "HD",
+          "UNH"
+        ]
+      }
+    },
+    "test_bear": {
+      "universe": "DJI",
+      "period": "test_bear",
+      "n_steps": 230,
+      "n_stocks": 30,
+      "regime_day_counts": {
+        "bull": 5,
+        "bear": 210,
+        "sideways": 15
+      },
+      "top_15_stocks_by_attention": [
+        "NVDA",
+        "MMM",
+        "CVX",
+        "BA",
+        "AAPL",
+        "INTC",
+        "AMZN",
+        "MRK",
+        "VZ",
+        "DIS",
+        "SHW",
+        "AMGN",
+        "UNH",
+        "NKE",
+        "IBM"
+      ],
+      "top_10_stocks_by_attention": [
+        "NVDA",
+        "MMM",
+        "CVX",
+        "BA",
+        "AAPL",
+        "INTC",
+        "AMZN",
+        "MRK",
+        "VZ",
+        "DIS"
+      ],
+      "top_10_stocks_by_regime": {
+        "bull": [
+          "NVDA",
+          "AMZN",
+          "MMM",
+          "BA",
+          "VZ",
+          "DIS",
+          "AAPL",
+          "INTC",
+          "CVX",
+          "IBM"
+        ],
+        "bear": [
+          "NVDA",
+          "MMM",
+          "BA",
+          "CVX",
+          "AAPL",
+          "INTC",
+          "MRK",
+          "AMZN",
+          "VZ",
+          "DIS"
+        ],
+        "sideways": [
+          "NVDA",
+          "CVX",
+          "BA",
+          "MMM",
+          "SHW",
+          "HD",
+          "MRK",
+          "UNH",
+          "NKE",
+          "DIS"
+        ]
+      }
+    },
+    "test_2023": {
+      "universe": "DJI",
+      "period": "test_2023",
+      "n_steps": 229,
+      "n_stocks": 30,
+      "regime_day_counts": {
+        "bull": 56,
+        "bear": 0,
+        "sideways": 173
+      },
+      "top_15_stocks_by_attention": [
+        "NVDA",
+        "MMM",
+        "VZ",
+        "INTC",
+        "MSFT",
+        "BA",
+        "DIS",
+        "AMGN",
+        "CRM",
+        "NKE",
+        "CAT",
+        "IBM",
+        "MRK",
+        "SHW",
+        "JNJ"
+      ],
+      "top_10_stocks_by_attention": [
+        "NVDA",
+        "MMM",
+        "VZ",
+        "INTC",
+        "MSFT",
+        "BA",
+        "DIS",
+        "AMGN",
+        "CRM",
+        "NKE"
+      ],
+      "top_10_stocks_by_regime": {
+        "bull": [
+          "NVDA",
+          "MMM",
+          "VZ",
+          "INTC",
+          "CRM",
+          "MSFT",
+          "CAT",
+          "DIS",
+          "BA",
+          "SHW"
+        ],
+        "bear": [],
+        "sideways": [
+          "NVDA",
+          "MMM",
+          "INTC",
+          "VZ",
+          "BA",
+          "MSFT",
+          "AMGN",
+          "DIS",
+          "NKE",
+          "IBM"
+        ]
+      }
+    },
+    "test_bull": {
+      "universe": "DJI",
+      "period": "test_bull",
+      "n_steps": 230,
+      "n_stocks": 30,
+      "regime_day_counts": {
+        "bull": 124,
+        "bear": 10,
+        "sideways": 96
+      },
+      "top_15_stocks_by_attention": [
+        "NVDA",
+        "INTC",
+        "MMM",
+        "WMT",
+        "DIS",
+        "NKE",
+        "BA",
+        "AMGN",
+        "UNH",
+        "VZ",
+        "CRM",
+        "TRV",
+        "AAPL",
+        "MRK",
+        "JNJ"
+      ],
+      "top_10_stocks_by_attention": [
+        "NVDA",
+        "INTC",
+        "MMM",
+        "WMT",
+        "DIS",
+        "NKE",
+        "BA",
+        "AMGN",
+        "UNH",
+        "VZ"
+      ],
+      "top_10_stocks_by_regime": {
+        "bull": [
+          "NVDA",
+          "MMM",
+          "INTC",
+          "DIS",
+          "WMT",
+          "BA",
+          "NKE",
+          "VZ",
+          "CRM",
+          "TRV"
+        ],
+        "bear": [
+          "NVDA",
+          "MMM",
+          "INTC",
+          "NKE",
+          "TRV",
+          "BA",
+          "DIS",
+          "MRK",
+          "VZ",
+          "CSCO"
+        ],
+        "sideways": [
+          "NVDA",
+          "INTC",
+          "MMM",
+          "WMT",
+          "NKE",
+          "AMGN",
+          "BA",
+          "UNH",
+          "DIS",
+          "VZ"
+        ]
+      }
+    }
+  },
+  "SP100": {
+    "val": {
+      "universe": "SP100",
+      "period": "val",
+      "n_steps": 231,
+      "n_stocks": 90,
+      "regime_day_counts": {
+        "bull": 121,
+        "bear": 63,
+        "sideways": 47
+      },
+      "top_15_stocks_by_attention": [
+        "NVDA",
+        "TGT",
+        "DE",
+        "LLY",
+        "UPS",
+        "XOM",
+        "PFE",
+        "QCOM",
+        "F",
+        "DHR",
+        "ORCL",
+        "TMO",
+        "COP",
+        "AMD",
+        "MRK"
+      ],
+      "top_10_stocks_by_attention": [
+        "NVDA",
+        "TGT",
+        "DE",
+        "LLY",
+        "UPS",
+        "XOM",
+        "PFE",
+        "QCOM",
+        "F",
+        "DHR"
+      ],
+      "top_10_stocks_by_regime": {
+        "bull": [
+          "DE",
+          "TGT",
+          "NVDA",
+          "LLY",
+          "UPS",
+          "PFE",
+          "F",
+          "ORCL",
+          "DHR",
+          "XOM"
+        ],
+        "bear": [
+          "NVDA",
+          "QCOM",
+          "DE",
+          "XOM",
+          "LLY",
+          "TGT",
+          "UPS",
+          "AMD",
+          "MRK",
+          "INTC"
+        ],
+        "sideways": [
+          "TGT",
+          "NVDA",
+          "COP",
+          "TMO",
+          "DHR",
+          "PFE",
+          "LLY",
+          "F",
+          "UNP",
+          "ORCL"
+        ]
+      }
+    },
+    "test_bear": {
+      "universe": "SP100",
+      "period": "test_bear",
+      "n_steps": 230,
+      "n_stocks": 90,
+      "regime_day_counts": {
+        "bull": 0,
+        "bear": 201,
+        "sideways": 29
+      },
+      "top_15_stocks_by_attention": [
+        "LLY",
+        "NVDA",
+        "COP",
+        "COST",
+        "GE",
+        "XOM",
+        "DE",
+        "TGT",
+        "INTU",
+        "CVX",
+        "F",
+        "AMT",
+        "ADBE",
+        "NEE",
+        "FDX"
+      ],
+      "top_10_stocks_by_attention": [
+        "LLY",
+        "NVDA",
+        "COP",
+        "COST",
+        "GE",
+        "XOM",
+        "DE",
+        "TGT",
+        "INTU",
+        "CVX"
+      ],
+      "top_10_stocks_by_regime": {
+        "bull": [],
+        "bear": [
+          "LLY",
+          "NVDA",
+          "COP",
+          "COST",
+          "XOM",
+          "TGT",
+          "DE",
+          "GE",
+          "INTU",
+          "CVX"
+        ],
+        "sideways": [
+          "NVDA",
+          "LLY",
+          "F",
+          "GE",
+          "COST",
+          "XOM",
+          "DE",
+          "TGT",
+          "LOW",
+          "NFLX"
+        ]
+      }
+    },
+    "test_2023": {
+      "universe": "SP100",
+      "period": "test_2023",
+      "n_steps": 229,
+      "n_stocks": 90,
+      "regime_day_counts": {
+        "bull": 88,
+        "bear": 12,
+        "sideways": 129
+      },
+      "top_15_stocks_by_attention": [
+        "NVDA",
+        "LLY",
+        "SCHW",
+        "NEE",
+        "PFE",
+        "DE",
+        "T",
+        "C",
+        "ORCL",
+        "AIG",
+        "MMM",
+        "USB",
+        "MSFT",
+        "TGT",
+        "MET"
+      ],
+      "top_10_stocks_by_attention": [
+        "NVDA",
+        "LLY",
+        "SCHW",
+        "NEE",
+        "PFE",
+        "DE",
+        "T",
+        "C",
+        "ORCL",
+        "AIG"
+      ],
+      "top_10_stocks_by_regime": {
+        "bull": [
+          "NVDA",
+          "LLY",
+          "TGT",
+          "T",
+          "MSFT",
+          "NKE",
+          "INTU",
+          "PFE",
+          "USB",
+          "C"
+        ],
+        "bear": [
+          "NVDA",
+          "LLY",
+          "COST",
+          "GOOG",
+          "AMGN",
+          "BLK",
+          "NEE",
+          "GOOGL",
+          "JNJ",
+          "ORCL"
+        ],
+        "sideways": [
+          "LLY",
+          "NVDA",
+          "SCHW",
+          "NEE",
+          "DE",
+          "PFE",
+          "C",
+          "AIG",
+          "ORCL",
+          "MMM"
+        ]
+      }
+    },
+    "test_bull": {
+      "universe": "SP100",
+      "period": "test_bull",
+      "n_steps": 230,
+      "n_stocks": 90,
+      "regime_day_counts": {
+        "bull": 152,
+        "bear": 14,
+        "sideways": 64
+      },
+      "top_15_stocks_by_attention": [
+        "NVDA",
+        "LLY",
+        "ORCL",
+        "INTC",
+        "CVS",
+        "COST",
+        "ADBE",
+        "BMY",
+        "BA",
+        "AIG",
+        "GILD",
+        "SBUX",
+        "NKE",
+        "ACN",
+        "MMM"
+      ],
+      "top_10_stocks_by_attention": [
+        "NVDA",
+        "LLY",
+        "ORCL",
+        "INTC",
+        "CVS",
+        "COST",
+        "ADBE",
+        "BMY",
+        "BA",
+        "AIG"
+      ],
+      "top_10_stocks_by_regime": {
+        "bull": [
+          "NVDA",
+          "LLY",
+          "ORCL",
+          "CVS",
+          "ADBE",
+          "COST",
+          "INTC",
+          "BA",
+          "SBUX",
+          "MMM"
+        ],
+        "bear": [
+          "NVDA",
+          "ORCL",
+          "ADBE",
+          "LLY",
+          "LMT",
+          "BA",
+          "WMT",
+          "F",
+          "CVS",
+          "AIG"
+        ],
+        "sideways": [
+          "NVDA",
+          "LLY",
+          "INTC",
+          "BMY",
+          "ACN",
+          "CVS",
+          "COST",
+          "F",
+          "WMT",
+          "UNH"
+        ]
+      }
+    }
+  }
+}

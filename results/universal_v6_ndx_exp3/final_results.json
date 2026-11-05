@@ -1,0 +1,59 @@
+{
+  "method": "universal_v6_ndx_exp3",
+  "universe": "NASDAQ-100 (EXPERIMENTAL \u2014 out of universal rules)",
+  "variant": "exp3",
+  "recipe_modifications": {
+    "risk_penalties": {
+      "0": 0.1,
+      "1": 0.5,
+      "2": 0.3
+    },
+    "use_markowitz_reward": true,
+    "markowitz_beta": 0.0,
+    "use_concentration_bonus": false
+  },
+  "best_val_sharpe": 1.9201829370081591,
+  "best_step": 100000,
+  "periods": {
+    "train": {
+      "cumulative_return": 1129.01,
+      "annualized_return": 20.08,
+      "annualized_volatility": 21.96,
+      "sharpe_ratio": 0.9146,
+      "max_drawdown": -49.58,
+      "final_value": 12290115.5
+    },
+    "val": {
+      "cumulative_return": 26.32,
+      "annualized_return": 29.03,
+      "annualized_volatility": 15.12,
+      "sharpe_ratio": 1.9202,
+      "max_drawdown": -6.42,
+      "final_value": 1263157.84
+    },
+    "test_bear": {
+      "cumulative_return": -9.23,
+      "annualized_return": -10.06,
+      "annualized_volatility": 28.48,
+      "sharpe_ratio": -0.3533,
+      "max_drawdown": -21.95,
+      "final_value": 907741.23
+    },
+    "test_2023": {
+      "cumulative_return": 23.44,
+      "annualized_return": 26.07,
+      "annualized_volatility": 14.65,
+      "sharpe_ratio": 1.7794,
+      "max_drawdown": -10.22,
+      "final_value": 1234354.52
+    },
+    "test_bull": {
+      "cumulative_return": 9.23,
+      "annualized_return": 10.16,
+      "annualized_volatility": 14.39,
+      "sharpe_ratio": 0.7062,
+      "max_drawdown": -10.07,
+      "final_value": 1092346.41
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "method": "universal_v6_dji_mom",
+  "universe": "DJI 30 + long-momentum features",
+  "best_val_sharpe": 2.3451986664151003,
+  "best_step": 800000,
+  "periods": {
+    "train": {
+      "cumulative_return": 4573.65,
+      "annualized_return": 32.37,
+      "annualized_volatility": 24.24,
+      "sharpe_ratio": 1.3353,
+      "max_drawdown": -47.79,
+      "final_value": 46736464.62
+    },
+    "val": {
+      "cumulative_return": 33.43,
+      "annualized_return": 36.98,
+      "annualized_volatility": 15.77,
+      "sharpe_ratio": 2.3452,
+      "max_drawdown": -5.87,
+      "final_value": 1334349.32
+    },
+    "test_bear": {
+      "cumulative_return": -15.84,
+      "annualized_return": -17.22,
+      "annualized_volatility": 26.78,
+      "sharpe_ratio": -0.6431,
+      "max_drawdown": -27.66,
+      "final_value": 841572.67
+    },
+    "test_2023": {
+      "cumulative_return": 30.34,
+      "annualized_return": 33.86,
+      "annualized_volatility": 16.16,
+      "sharpe_ratio": 2.0949,
+      "max_drawdown": -13.59,
+      "final_value": 1303403.98
+    },
+    "test_bull": {
+      "cumulative_return": 31.54,
+      "annualized_return": 35.04,
+      "annualized_volatility": 15.84,
+      "sharpe_ratio": 2.2115,
+      "max_drawdown": -9.9,
+      "final_value": 1315425.31
+    }
+  }
+}

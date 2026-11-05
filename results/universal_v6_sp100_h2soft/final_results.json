@@ -1,0 +1,56 @@
+{
+  "method": "universal_v6_sp100_h2soft",
+  "universe": "SP100 90 \u2014 H2-SOFT (uniform \u03bb, keeps regime obs)",
+  "experimental_changes": {
+    "risk_penalties": {
+      "0": 0.3,
+      "1": 0.3,
+      "2": 0.3
+    },
+    "rationale": "Tests literature-standard fixed-\u03bb choice; isolates \u03bb-conditioning contribution"
+  },
+  "best_val_sharpe": 2.796580889051792,
+  "best_step": 325000,
+  "periods": {
+    "train": {
+      "cumulative_return": 530.8,
+      "annualized_return": 14.38,
+      "annualized_volatility": 21.33,
+      "sharpe_ratio": 0.6741,
+      "max_drawdown": -48.77,
+      "final_value": 6307967.54
+    },
+    "val": {
+      "cumulative_return": 30.18,
+      "annualized_return": 33.34,
+      "annualized_volatility": 11.92,
+      "sharpe_ratio": 2.7966,
+      "max_drawdown": -4.98,
+      "final_value": 1301831.83
+    },
+    "test_bear": {
+      "cumulative_return": -10.55,
+      "annualized_return": -11.5,
+      "annualized_volatility": 23.28,
+      "sharpe_ratio": -0.494,
+      "max_drawdown": -22.07,
+      "final_value": 894460.39
+    },
+    "test_2023": {
+      "cumulative_return": 13.59,
+      "annualized_return": 15.05,
+      "annualized_volatility": 12.4,
+      "sharpe_ratio": 1.2135,
+      "max_drawdown": -10.09,
+      "final_value": 1135868.48
+    },
+    "test_bull": {
+      "cumulative_return": 16.41,
+      "annualized_return": 18.11,
+      "annualized_volatility": 10.63,
+      "sharpe_ratio": 1.7043,
+      "max_drawdown": -5.99,
+      "final_value": 1164080.9
+    }
+  }
+}

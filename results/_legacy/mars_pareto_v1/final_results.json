@@ -1,0 +1,77 @@
+{
+  "method": "MARS-Pareto v1 (rule-based MAC)",
+  "dji": {
+    "periods": {
+      "val": {
+        "cumulative_return": 30.62,
+        "annualized_return": 33.83,
+        "annualized_volatility": 13.36,
+        "sharpe_ratio": 2.5324,
+        "max_drawdown": -5.25,
+        "final_value": 1306224.15
+      },
+      "test_bear": {
+        "cumulative_return": -9.93,
+        "annualized_return": -10.82,
+        "annualized_volatility": 24.48,
+        "sharpe_ratio": -0.4421,
+        "max_drawdown": -24.05,
+        "final_value": 900744.62
+      },
+      "test_2023": {
+        "cumulative_return": 18.0,
+        "annualized_return": 19.97,
+        "annualized_volatility": 11.65,
+        "sharpe_ratio": 1.7138,
+        "max_drawdown": -10.15,
+        "final_value": 1179966.28
+      },
+      "test_bull": {
+        "cumulative_return": 24.36,
+        "annualized_return": 26.98,
+        "annualized_volatility": 12.26,
+        "sharpe_ratio": 2.2001,
+        "max_drawdown": -6.4,
+        "final_value": 1243554.27
+      }
+    },
+    "wins": "6/7"
+  },
+  "sp100": {
+    "periods": {
+      "val": {
+        "cumulative_return": 29.5,
+        "annualized_return": 32.58,
+        "annualized_volatility": 11.8,
+        "sharpe_ratio": 2.7619,
+        "max_drawdown": -5.21,
+        "final_value": 1295031.09
+      },
+      "test_bear": {
+        "cumulative_return": -10.58,
+        "annualized_return": -11.53,
+        "annualized_volatility": 22.72,
+        "sharpe_ratio": -0.5075,
+        "max_drawdown": -22.54,
+        "final_value": 894206.83
+      },
+      "test_2023": {
+        "cumulative_return": 16.28,
+        "annualized_return": 18.06,
+        "annualized_volatility": 12.62,
+        "sharpe_ratio": 1.4308,
+        "max_drawdown": -9.92,
+        "final_value": 1162835.79
+      },
+      "test_bull": {
+        "cumulative_return": 18.89,
+        "annualized_return": 20.87,
+        "annualized_volatility": 10.81,
+        "sharpe_ratio": 1.9301,
+        "max_drawdown": -6.2,
+        "final_value": 1188886.8
+      }
+    },
+    "wins": "5/12"
+  }
+}

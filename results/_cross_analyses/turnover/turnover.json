@@ -1,0 +1,98 @@
+{
+  "MAC_v3|dji|val": {
+    "mean_daily_turnover_pct": 3.4292615950107574,
+    "median_daily_turnover_pct": 1.2580747716128826,
+    "total_period_turnover_pct": 792.1594142913818,
+    "n_days": 231
+  },
+  "MAC_v3|dji|test_bear": {
+    "mean_daily_turnover_pct": 2.0804325118660927,
+    "median_daily_turnover_pct": 0.18640374764800072,
+    "total_period_turnover_pct": 478.4994602203369,
+    "n_days": 230
+  },
+  "MAC_v3|dji|test_2023": {
+    "mean_daily_turnover_pct": 2.1137136965990067,
+    "median_daily_turnover_pct": 0.9214259684085846,
+    "total_period_turnover_pct": 484.0404510498047,
+    "n_days": 229
+  },
+  "MAC_v3|dji|test_bull": {
+    "mean_daily_turnover_pct": 4.0824949741363525,
+    "median_daily_turnover_pct": 1.321315299719572,
+    "total_period_turnover_pct": 938.9738082885742,
+    "n_days": 230
+  },
+  "MAC_v3|sp100|val": {
+    "mean_daily_turnover_pct": 3.310118243098259,
+    "median_daily_turnover_pct": 0.8900896646082401,
+    "total_period_turnover_pct": 764.637279510498,
+    "n_days": 231
+  },
+  "MAC_v3|sp100|test_bear": {
+    "mean_daily_turnover_pct": 1.9460873678326607,
+    "median_daily_turnover_pct": 0.12323588598519564,
+    "total_period_turnover_pct": 447.6000785827637,
+    "n_days": 230
+  },
+  "MAC_v3|sp100|test_2023": {
+    "mean_daily_turnover_pct": 3.1729966402053833,
+    "median_daily_turnover_pct": 1.114522758871317,
+    "total_period_turnover_pct": 726.6161918640137,
+    "n_days": 229
+  },
+  "MAC_v3|sp100|test_bull": {
+    "mean_daily_turnover_pct": 4.862319678068161,
+    "median_daily_turnover_pct": 1.6104556620121002,
+    "total_period_turnover_pct": 1118.3335304260254,
+    "n_days": 230
+  },
+  "universal_v6|dji|val": {
+    "mean_daily_turnover_pct": 1.0507889091968536,
+    "median_daily_turnover_pct": 0.4935877397656441,
+    "total_period_turnover_pct": 242.73223876953125,
+    "n_days": 231
+  },
+  "universal_v6|dji|test_bear": {
+    "mean_daily_turnover_pct": 1.3787643052637577,
+    "median_daily_turnover_pct": 0.7983404211699963,
+    "total_period_turnover_pct": 317.11578369140625,
+    "n_days": 230
+  },
+  "universal_v6|dji|test_2023": {
+    "mean_daily_turnover_pct": 1.037167850881815,
+    "median_daily_turnover_pct": 0.4841600079089403,
+    "total_period_turnover_pct": 237.51144409179688,
+    "n_days": 229
+  },
+  "universal_v6|dji|test_bull": {
+    "mean_daily_turnover_pct": 1.1565766297280788,
+    "median_daily_turnover_pct": 0.5670116282999516,
+    "total_period_turnover_pct": 266.0126209259033,
+    "n_days": 230
+  },
+  "universal_v6|sp100|val": {
+    "mean_daily_turnover_pct": 1.5525911003351212,
+    "median_daily_turnover_pct": 0.9968364611268044,
+    "total_period_turnover_pct": 358.64853858947754,
+    "n_days": 231
+  },
+  "universal_v6|sp100|test_bear": {
+    "mean_daily_turnover_pct": 1.9289391115307808,
+    "median_daily_turnover_pct": 1.1935952119529247,
+    "total_period_turnover_pct": 443.65601539611816,
+    "n_days": 230
+  },
+  "universal_v6|sp100|test_2023": {
+    "mean_daily_turnover_pct": 1.766534335911274,
+    "median_daily_turnover_pct": 1.1173918843269348,
+    "total_period_turnover_pct": 404.5363426208496,
+    "n_days": 229
+  },
+  "universal_v6|sp100|test_bull": {
+    "mean_daily_turnover_pct": 2.301008254289627,
+    "median_daily_turnover_pct": 1.688961684703827,
+    "total_period_turnover_pct": 529.2318820953369,
+    "n_days": 230
+  }
+}

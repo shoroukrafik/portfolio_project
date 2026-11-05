@@ -1,0 +1,22 @@
+{
+  "method": "extended_data_baseline_no_floor_at_eval",
+  "note": "Same trained model as ppo_best_extended; evaluated with ablation_mode=no_floor",
+  "val": {
+    "cumulative_return": 29.31,
+    "sharpe_ratio": 2.6737,
+    "max_drawdown": -4.22,
+    "annualized_volatility": 12.1
+  },
+  "test_bear": {
+    "cumulative_return": -13.69,
+    "sharpe_ratio": -0.6302,
+    "max_drawdown": -23.83,
+    "annualized_volatility": 23.63
+  },
+  "test_bull": {
+    "cumulative_return": 18.15,
+    "sharpe_ratio": 1.7849,
+    "max_drawdown": -6.05,
+    "annualized_volatility": 11.24
+  }
+}

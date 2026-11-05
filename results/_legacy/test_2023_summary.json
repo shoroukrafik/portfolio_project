@@ -1,0 +1,84 @@
+{
+  "test_period": "2023",
+  "days": 250,
+  "results": {
+    "BENCHMARK: DJI": {
+      "cumulative_return": 13.74,
+      "sharpe_ratio": 1.215,
+      "max_drawdown": -9.02,
+      "annualized_volatility": 11.41
+    },
+    "BENCHMARK: EW": {
+      "cumulative_return": 25.72,
+      "sharpe_ratio": 2.1807,
+      "max_drawdown": -8.29,
+      "annualized_volatility": 11.9
+    },
+    "FULL (baseline)": {
+      "cumulative_return": 27.16,
+      "sharpe_ratio": 2.2862,
+      "max_drawdown": -9.49,
+      "annualized_volatility": 13.24
+    },
+    "VANILLA": {
+      "cumulative_return": 21.57,
+      "sharpe_ratio": 2.093,
+      "max_drawdown": -7.83,
+      "annualized_volatility": 11.46
+    },
+    "no_floor (eval)": {
+      "cumulative_return": 29.03,
+      "sharpe_ratio": 2.2681,
+      "max_drawdown": -10.02,
+      "annualized_volatility": 14.28
+    },
+    "no_dsr": {
+      "cumulative_return": 16.39,
+      "sharpe_ratio": 1.7367,
+      "max_drawdown": -8.2,
+      "annualized_volatility": 10.47
+    },
+    "no_attention": {
+      "cumulative_return": 17.29,
+      "sharpe_ratio": 1.8345,
+      "max_drawdown": -7.66,
+      "annualized_volatility": 10.46
+    },
+    "no_regime_\u03bb=0.1": {
+      "cumulative_return": 16.1,
+      "sharpe_ratio": 1.4589,
+      "max_drawdown": -9.88,
+      "annualized_volatility": 12.24
+    },
+    "no_regime_\u03bb=0.3": {
+      "cumulative_return": 20.0,
+      "sharpe_ratio": 1.8613,
+      "max_drawdown": -9.17,
+      "annualized_volatility": 11.94
+    },
+    "no_regime_\u03bb=0.5": {
+      "cumulative_return": 30.53,
+      "sharpe_ratio": 2.3502,
+      "max_drawdown": -10.22,
+      "annualized_volatility": 14.5
+    },
+    "MTL v2": {
+      "cumulative_return": 18.82,
+      "sharpe_ratio": 1.8952,
+      "max_drawdown": -7.12,
+      "annualized_volatility": 11.02
+    },
+    "Multi-agent (soft)": {
+      "cumulative_return": 21.66,
+      "sharpe_ratio": 2.1392,
+      "max_drawdown": -8.56,
+      "annualized_volatility": 11.26
+    },
+    "Risk-personality (soft)": {
+      "cumulative_return": 18.18,
+      "sharpe_ratio": 1.6827,
+      "max_drawdown": -9.68,
+      "annualized_volatility": 11.99
+    }
+  }
+}

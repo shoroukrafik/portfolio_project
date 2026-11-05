@@ -1,0 +1,162 @@
+{
+  "(375000, 0.0)": {
+    "wins": 4,
+    "val_ret": 26.73,
+    "bear_ret": -14.76,
+    "test_2023_ret": 30.63,
+    "test_bull_ret": 20.73,
+    "val_sharpe": 1.6654
+  },
+  "(375000, 0.3)": {
+    "wins": 3,
+    "val_ret": 26.47,
+    "bear_ret": -12.42,
+    "test_2023_ret": 31.02,
+    "test_bull_ret": 18.1,
+    "val_sharpe": 1.9751
+  },
+  "(375000, 0.5)": {
+    "wins": 3,
+    "val_ret": 26.16,
+    "bear_ret": -11.16,
+    "test_2023_ret": 31.28,
+    "test_bull_ret": 16.3,
+    "val_sharpe": 2.1964
+  },
+  "(375000, 0.7)": {
+    "wins": 3,
+    "val_ret": 25.76,
+    "bear_ret": -10.18,
+    "test_2023_ret": 31.53,
+    "test_bull_ret": 14.52,
+    "val_sharpe": 2.3851
+  },
+  "(425000, 0.0)": {
+    "wins": 3,
+    "val_ret": 25.12,
+    "bear_ret": -18.49,
+    "test_2023_ret": 32.53,
+    "test_bull_ret": 28.9,
+    "val_sharpe": 1.4128
+  },
+  "(425000, 0.3)": {
+    "wins": 4,
+    "val_ret": 26.74,
+    "bear_ret": -15.34,
+    "test_2023_ret": 32.89,
+    "test_bull_ret": 26.15,
+    "val_sharpe": 1.8043
+  },
+  "(425000, 0.5)": {
+    "wins": 4,
+    "val_ret": 27.69,
+    "bear_ret": -13.54,
+    "test_2023_ret": 33.12,
+    "test_bull_ret": 24.29,
+    "val_sharpe": 2.1031
+  },
+  "(425000, 0.7)": {
+    "wins": 4,
+    "val_ret": 28.54,
+    "bear_ret": -12.01,
+    "test_2023_ret": 33.34,
+    "test_bull_ret": 22.44,
+    "val_sharpe": 2.3912
+  },
+  "(450000, 0.0)": {
+    "wins": 3,
+    "val_ret": 25.89,
+    "bear_ret": -20.86,
+    "test_2023_ret": 33.53,
+    "test_bull_ret": 34.54,
+    "val_sharpe": 1.3791
+  },
+  "(450000, 0.3)": {
+    "wins": 5,
+    "val_ret": 28.28,
+    "bear_ret": -17.25,
+    "test_2023_ret": 33.81,
+    "test_bull_ret": 31.91,
+    "val_sharpe": 1.8024
+  },
+  "(450000, 0.5)": {
+    "wins": 5,
+    "val_ret": 29.76,
+    "bear_ret": -15.13,
+    "test_2023_ret": 34.0,
+    "test_bull_ret": 30.12,
+    "val_sharpe": 2.1293
+  },
+  "(450000, 0.7)": {
+    "wins": 5,
+    "val_ret": 31.13,
+    "bear_ret": -13.29,
+    "test_2023_ret": 34.17,
+    "test_bull_ret": 28.33,
+    "val_sharpe": 2.4513
+  },
+  "(475000, 0.0)": {
+    "wins": 3,
+    "val_ret": 25.7,
+    "bear_ret": -21.92,
+    "test_2023_ret": 33.76,
+    "test_bull_ret": 39.91,
+    "val_sharpe": 1.3006
+  },
+  "(475000, 0.3)": {
+    "wins": 4,
+    "val_ret": 28.9,
+    "bear_ret": -18.09,
+    "test_2023_ret": 33.98,
+    "test_bull_ret": 37.31,
+    "val_sharpe": 1.7418
+  },
+  "(475000, 0.5)": {
+    "wins": 5,
+    "val_ret": 30.91,
+    "bear_ret": -15.84,
+    "test_2023_ret": 34.12,
+    "test_bull_ret": 35.53,
+    "val_sharpe": 2.084
+  },
+  "(475000, 0.7)": {
+    "wins": 6,
+    "val_ret": 32.83,
+    "bear_ret": -13.87,
+    "test_2023_ret": 34.25,
+    "test_bull_ret": 33.74,
+    "val_sharpe": 2.4258
+  },
+  "(500000, 0.0)": {
+    "wins": 3,
+    "val_ret": 23.86,
+    "bear_ret": -27.02,
+    "test_2023_ret": 34.47,
+    "test_bull_ret": 46.35,
+    "val_sharpe": 1.1031
+  },
+  "(500000, 0.3)": {
+    "wins": 4,
+    "val_ret": 28.68,
+    "bear_ret": -22.01,
+    "test_2023_ret": 34.68,
+    "test_bull_ret": 43.85,
+    "val_sharpe": 1.5745
+  },
+  "(500000, 0.5)": {
+    "wins": 5,
+    "val_ret": 31.83,
+    "bear_ret": -18.91,
+    "test_2023_ret": 34.8,
+    "test_bull_ret": 42.14,
+    "val_sharpe": 1.9484
+  },
+  "(500000, 0.7)": {
+    "wins": 6,
+    "val_ret": 34.89,
+    "bear_ret": -16.07,
+    "test_2023_ret": 34.91,
+    "test_bull_ret": 40.42,
+    "val_sharpe": 2.3349
+  }
+}

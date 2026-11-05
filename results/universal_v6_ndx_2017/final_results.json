@@ -1,0 +1,54 @@
+{
+  "method": "universal_v6_ndx_2017",
+  "universe": "NASDAQ-100 2017-variant (90 stocks)",
+  "experimental_changes": {
+    "train_window": "2017-2020 (vs production 2007-2020)",
+    "universe_cutoff": "2017-01-15 (vs production 2007-01-15)",
+    "extra_stocks": "includes META, TSLA, AVGO, V, ABBV, KHC, etc.",
+    "total_steps": 500000
+  },
+  "best_val_sharpe": 1.923860212443147,
+  "best_step": 50000,
+  "periods": {
+    "train": {
+      "cumulative_return": 190.7,
+      "annualized_return": 31.35,
+      "annualized_volatility": 22.31,
+      "sharpe_ratio": 1.4056,
+      "max_drawdown": -31.25,
+      "final_value": 2906977.06
+    },
+    "val": {
+      "cumulative_return": 27.29,
+      "annualized_return": 30.11,
+      "annualized_volatility": 15.65,
+      "sharpe_ratio": 1.9239,
+      "max_drawdown": -7.38,
+      "final_value": 1272861.0
+    },
+    "test_bear": {
+      "cumulative_return": -11.57,
+      "annualized_return": -12.61,
+      "annualized_volatility": 29.28,
+      "sharpe_ratio": -0.4306,
+      "max_drawdown": -22.36,
+      "final_value": 884278.7
+    },
+    "test_2023": {
+      "cumulative_return": 25.35,
+      "annualized_return": 28.23,
+      "annualized_volatility": 14.8,
+      "sharpe_ratio": 1.908,
+      "max_drawdown": -9.96,
+      "final_value": 1253544.41
+    },
+    "test_bull": {
+      "cumulative_return": 12.18,
+      "annualized_return": 13.42,
+      "annualized_volatility": 13.96,
+      "sharpe_ratio": 0.9609,
+      "max_drawdown": -8.94,
+      "final_value": 1121768.91
+    }
+  }
+}

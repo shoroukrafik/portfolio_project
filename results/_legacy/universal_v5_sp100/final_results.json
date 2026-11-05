@@ -1,0 +1,90 @@
+{
+  "method": "universal_v5_sp100",
+  "universe": "S&P 100 historical subset (90 stocks)",
+  "v5_settings": {
+    "cash_floors": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0
+    },
+    "risk_lambda_fixed": 0.1,
+    "include_regime_probs": true,
+    "include_vol_features": true,
+    "net_arch": {
+      "pi": [
+        128,
+        64
+      ],
+      "vf": [
+        128,
+        64
+      ]
+    },
+    "feature_columns": [
+      "close",
+      "open",
+      "high",
+      "low",
+      "volume",
+      "rsi",
+      "macd",
+      "macd_signal",
+      "macd_diff",
+      "bb_upper",
+      "bb_lower",
+      "bb_width",
+      "atr",
+      "sma_20",
+      "sma_50",
+      "adx",
+      "cci",
+      "daily_return",
+      "volatility_20d",
+      "mom_60d_norm"
+    ]
+  },
+  "best_val_sharpe": 2.750498010919754,
+  "best_step": 150000,
+  "periods": {
+    "train": {
+      "cumulative_return": 500.56,
+      "annualized_return": 13.97,
+      "annualized_volatility": 21.36,
+      "sharpe_ratio": 0.6539,
+      "max_drawdown": -49.12,
+      "final_value": 6005597.55
+    },
+    "val": {
+      "cumulative_return": 29.34,
+      "annualized_return": 32.4,
+      "annualized_volatility": 11.78,
+      "sharpe_ratio": 2.7505,
+      "max_drawdown": -5.04,
+      "final_value": 1293397.19
+    },
+    "test_bear": {
+      "cumulative_return": -8.53,
+      "annualized_return": -9.31,
+      "annualized_volatility": 22.57,
+      "sharpe_ratio": -0.4124,
+      "max_drawdown": -20.76,
+      "final_value": 914675.22
+    },
+    "test_2023": {
+      "cumulative_return": 11.92,
+      "annualized_return": 13.19,
+      "annualized_volatility": 12.23,
+      "sharpe_ratio": 1.0784,
+      "max_drawdown": -10.06,
+      "final_value": 1119207.28
+    },
+    "test_bull": {
+      "cumulative_return": 16.55,
+      "annualized_return": 18.27,
+      "annualized_volatility": 10.4,
+      "sharpe_ratio": 1.7573,
+      "max_drawdown": -6.0,
+      "final_value": 1165520.08
+    }
+  }
+}

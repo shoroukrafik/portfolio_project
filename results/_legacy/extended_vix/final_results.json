@@ -1,0 +1,38 @@
+{
+  "method": "extended_baseline_with_vix_feature",
+  "include_vix": true,
+  "best_val_sharpe": 2.301971378023075,
+  "best_step": 975000,
+  "agent_train": {
+    "cumulative_return": 3578.67,
+    "annualized_return": 30.08,
+    "annualized_volatility": 18.23,
+    "sharpe_ratio": 1.6496,
+    "max_drawdown": -30.24,
+    "final_value": 36786684.68
+  },
+  "agent_val": {
+    "cumulative_return": 30.27,
+    "annualized_return": 33.44,
+    "annualized_volatility": 14.53,
+    "sharpe_ratio": 2.302,
+    "max_drawdown": -7.98,
+    "final_value": 1302726.89
+  },
+  "agent_test_bear": {
+    "cumulative_return": -8.99,
+    "annualized_return": -9.8,
+    "annualized_volatility": 12.14,
+    "sharpe_ratio": -0.8074,
+    "max_drawdown": -14.19,
+    "final_value": 910148.63
+  },
+  "agent_test_bull": {
+    "cumulative_return": 10.51,
+    "annualized_return": 11.58,
+    "annualized_volatility": 11.82,
+    "sharpe_ratio": 0.9791,
+    "max_drawdown": -7.84,
+    "final_value": 1105147.34
+  }
+}
